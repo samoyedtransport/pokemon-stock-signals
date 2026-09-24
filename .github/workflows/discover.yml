@@ -1,0 +1,48 @@
+name: Pokemon Retail Discovery
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pokemon-retail-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Discover Pokemon products
+        run: python discover.py
+
+      - name: Validate signals
+        run: |
+          python -m json.tool signals.json > /dev/null
+
+      - name: Commit updated signals
+        run: |
+          git config user.name "pokemon-stock-bot"
+          git config user.email "pokemon-stock-bot@users.noreply.github.com"
+
+          if git diff --quiet signals.json; then
+            echo "No signal changes."
+            exit 0
+          fi
+
+          git add signals.json
+          git commit -m "Update Pokemon retail signals"
+          git push
