@@ -1,14 +1,5 @@
 {
   "version": 1,
-  "updated_at": "2026-09-24T17:00:00-04:00",
-  "products": [
-    {
-      "title": "Pokemon TCG Test Elite Trainer Box ETB",
-      "url": "https://www.pokemoncenter.com/test-v08-signal",
-      "price": 59.99,
-      "stock": "in_stock",
-      "retailer": "pokemon_center_ca",
-      "verified_retailer": true
-    }
-  ]
+  "updated_at": null,
+  "products": []
 }
