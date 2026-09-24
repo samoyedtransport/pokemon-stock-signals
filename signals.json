@@ -1,5 +1,14 @@
 {
   "version": 1,
-  "updated_at": "2026-09-24T23:17:01.612679+00:00",
-  "products": []
+  "updated_at": "2026-09-24T19:50:00-04:00",
+  "products": [
+    {
+      "title": "Pokemon TCG Scarlet & Violet 151 Mini Tins 5-Pack",
+      "url": "https://www.costco.ca/p/-/minibote-pokmon-151-lot-de-5-ensemble-de-4-cartes-promotionnelles-dition-anglaise-ensemble-b/4000322432",
+      "price": null,
+      "stock": "unknown",
+      "retailer": "costco_ca",
+      "verified_retailer": true
+    }
+  ]
 }
