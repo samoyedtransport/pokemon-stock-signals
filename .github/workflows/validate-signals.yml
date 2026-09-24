@@ -1,0 +1,70 @@
+name: Validate Pokemon Signals
+
+on:
+  push:
+    paths:
+      - "signals.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate signals.json
+        shell: python
+        run: |
+          import json
+          from urllib.parse import urlparse
+
+          with open("signals.json", "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          assert isinstance(data, dict)
+          assert data.get("version") == 1
+          assert isinstance(data.get("products"), list)
+
+          allowed_stock = {
+              "in_stock",
+              "out_of_stock",
+              "unknown"
+          }
+
+          for product in data["products"]:
+              assert isinstance(product, dict)
+
+              title = product.get("title", "")
+              url = product.get("url", "")
+              stock = product.get("stock", "unknown")
+
+              assert isinstance(title, str) and title.strip()
+              assert isinstance(url, str) and url.startswith("https://")
+              assert stock in allowed_stock
+
+              host = urlparse(url).hostname or ""
+              host = host.lower()
+
+              walmart = (
+                  host == "walmart.ca"
+                  or host.endswith(".walmart.ca")
+              )
+
+              pokemon_center = (
+                  host == "pokemoncenter.com"
+                  or host.endswith(".pokemoncenter.com")
+              )
+
+              assert walmart or pokemon_center, (
+                  f"Unsupported retailer domain: {host}"
+              )
+
+          print(
+              f"signals.json valid: "
+              f"{len(data['products'])} product(s)"
+          )
