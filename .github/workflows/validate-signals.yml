@@ -54,17 +54,14 @@ jobs:
                   host == "walmart.ca"
                   or host.endswith(".walmart.ca")
               )
-
-              pokemon_center = (
-                  host == "pokemoncenter.com"
-                  or host.endswith(".pokemoncenter.com")
-              )
-
-              assert walmart or pokemon_center, (
-                  f"Unsupported retailer domain: {host}"
-              )
-
-          print(
-              f"signals.json valid: "
-              f"{len(data['products'])} product(s)"
+          pokemon_center = (
+          host == "pokemoncenter.com"
+          or host.endswith(".pokemoncenter.com")
           )
+          costco = (
+          host == "costco.ca"
+          or host.endswith(".costco.ca")
+          )
+          assert walmart or pokemon_center or costco, (
+    f"Unsupported retailer domain: {host}"
+    )
