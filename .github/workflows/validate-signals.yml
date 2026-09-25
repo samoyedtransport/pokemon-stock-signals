@@ -50,18 +50,21 @@ jobs:
               host = urlparse(url).hostname or ""
               host = host.lower()
 
-              walmart = (
-                  host == "walmart.ca"
-                  or host.endswith(".walmart.ca")
-              )
+                        walmart = (
+              host == "walmart.ca"
+              or host.endswith(".walmart.ca")
+          )
+
           pokemon_center = (
-          host == "pokemoncenter.com"
-          or host.endswith(".pokemoncenter.com")
+              host == "pokemoncenter.com"
+              or host.endswith(".pokemoncenter.com")
           )
+
           costco = (
-          host == "costco.ca"
-          or host.endswith(".costco.ca")
+              host == "costco.ca"
+              or host.endswith(".costco.ca")
           )
+
           assert walmart or pokemon_center or costco, (
-    f"Unsupported retailer domain: {host}"
-    )
+              f"Unsupported retailer domain: {host}"
+          )
