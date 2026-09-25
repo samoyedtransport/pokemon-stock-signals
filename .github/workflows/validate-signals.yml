@@ -49,8 +49,7 @@ jobs:
 
               host = urlparse(url).hostname or ""
               host = host.lower()
-
-                        walmart = (
+          walmart = (
               host == "walmart.ca"
               or host.endswith(".walmart.ca")
           )
