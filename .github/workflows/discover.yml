@@ -2,7 +2,11 @@ name: Pokemon Retail Discovery
 
 on:
   workflow_dispatch:
-
+  pull_request:
+    paths:
+      - "discover.py"
+      - "signals.json"
+      - ".github/workflows/discover.yml"
   schedule:
     - cron: "*/15 * * * *"
 
@@ -30,10 +34,20 @@ jobs:
         run: python discover.py
 
       - name: Validate signals
+        run: python -m json.tool signals.json > /dev/null
+
+      - name: Show discovery summary
         run: |
-          python -m json.tool signals.json > /dev/null
+          python - <<'PY'
+          import json
+          data = json.load(open("signals.json", encoding="utf-8"))
+          print(f"Verified products: {len(data.get('products', []))}")
+          for p in data.get("products", [])[:20]:
+              print(p.get("retailer"), p.get("stock"), p.get("price"), p.get("title"))
+          PY
 
       - name: Commit updated signals
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "pokemon-stock-bot"
           git config user.email "pokemon-stock-bot@users.noreply.github.com"
