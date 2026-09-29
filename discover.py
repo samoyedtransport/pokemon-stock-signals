@@ -61,14 +61,18 @@ def product_relevant(text: str) -> bool:
     lower = urllib.parse.unquote(text).lower().replace("-", " ")
     return any(term in lower for term in PRODUCT_TERMS)
 
-def looks_like_product_url(url: str) -> bool:
+def looks_like_product_url(url: str, retailer: str) -> bool:
     parsed = urllib.parse.urlparse(url)
-    path = parsed.path.lower()
-    if any(marker in path for marker in NON_PRODUCT_PATHS):
+    path = urllib.parse.unquote(parsed.path).lower().replace("-", " ")
+    if any(marker in parsed.path.lower() for marker in NON_PRODUCT_PATHS):
         return False
-    if parsed.query and not any(marker in path for marker in ("/product", "/products", "/p/")):
-        return False
-    return product_relevant(path)
+    if retailer == "pokemon_center_ca":
+        return "pokemon tcg" in path and product_relevant(path)
+    if retailer == "costco_ca":
+        return "pokemon" in path and ".product." in path and product_relevant(path)
+    if retailer == "walmart_ca":
+        return "pokemon" in path and product_relevant(path)
+    return False
 
 def extract_price(text: str):
     prices = []
@@ -104,14 +108,14 @@ def discover_from_sitemaps(retailer: str) -> list[dict]:
                 if host_allowed(url, retailer) and url not in seen:
                     queue.append(url)
                 continue
-            if host_allowed(url, retailer) and looks_like_product_url(url):
+            if host_allowed(url, retailer) and looks_like_product_url(url, retailer):
                 candidates.append({"title": urllib.parse.unquote(url.rsplit("/", 1)[-1]).replace("-", " "), "url": url})
         if len(candidates) >= 100:
             break
     return candidates[:100]
 
 def inspect_candidate(retailer: str, title: str, url: str):
-    if not host_allowed(url, retailer) or not looks_like_product_url(url):
+    if not host_allowed(url, retailer) or not looks_like_product_url(url, retailer):
         return None
     try:
         page = fetch(url)
