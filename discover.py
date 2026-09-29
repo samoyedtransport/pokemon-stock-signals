@@ -37,10 +37,15 @@ RETAILERS = {
 }
 
 PRODUCT_TERMS = (
-    "pokemon", "elite trainer", "etb", "booster bundle", "booster box",
+    "elite trainer", "etb", "booster bundle", "booster box", "booster pack",
     "ultra-premium", "ultra premium", "upc", "super-premium",
-    "super premium", "collection", "151", "prismatic",
-    "destined rivals", "journey together", "team rocket",
+    "super premium", "collection box", "boxed set", "battle deck",
+    "151", "prismatic", "destined rivals", "journey together", "team rocket",
+)
+
+NON_PRODUCT_PATHS = (
+    "/account", "/cart", "/category/", "/about", "/help", "/collections/",
+    "/collection/", "/brand/", "/search", "/pages/",
 )
 
 def fetch(url: str) -> str:
@@ -54,7 +59,16 @@ def host_allowed(url: str, retailer: str) -> bool:
 
 def product_relevant(text: str) -> bool:
     lower = urllib.parse.unquote(text).lower().replace("-", " ")
-    return "pokemon" in lower and any(term in lower for term in PRODUCT_TERMS)
+    return any(term in lower for term in PRODUCT_TERMS)
+
+def looks_like_product_url(url: str) -> bool:
+    parsed = urllib.parse.urlparse(url)
+    path = parsed.path.lower()
+    if any(marker in path for marker in NON_PRODUCT_PATHS):
+        return False
+    if parsed.query and not any(marker in path for marker in ("/product", "/products", "/p/")):
+        return False
+    return product_relevant(path)
 
 def extract_price(text: str):
     prices = []
@@ -90,14 +104,14 @@ def discover_from_sitemaps(retailer: str) -> list[dict]:
                 if host_allowed(url, retailer) and url not in seen:
                     queue.append(url)
                 continue
-            if host_allowed(url, retailer) and product_relevant(url):
+            if host_allowed(url, retailer) and looks_like_product_url(url):
                 candidates.append({"title": urllib.parse.unquote(url.rsplit("/", 1)[-1]).replace("-", " "), "url": url})
         if len(candidates) >= 100:
             break
     return candidates[:100]
 
 def inspect_candidate(retailer: str, title: str, url: str):
-    if not host_allowed(url, retailer) or not product_relevant(title + " " + url):
+    if not host_allowed(url, retailer) or not looks_like_product_url(url):
         return None
     try:
         page = fetch(url)
