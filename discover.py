@@ -127,10 +127,10 @@ def inspect_candidate(retailer: str, title: str, url: str):
         return None
     lower = text.lower()
     stock = "unknown"
-    if any(x in lower for x in ("add to cart", "add to bag", "in stock")):
-        stock = "in_stock"
     if any(x in lower for x in ("out of stock", "sold out", "currently unavailable")):
         stock = "out_of_stock"
+    elif any(x in lower for x in ("add to cart", "add to bag", "in stock")):
+        stock = "in_stock"
 
     verified = retailer in ("pokemon_center_ca", "costco_ca")
     if retailer == "walmart_ca":
