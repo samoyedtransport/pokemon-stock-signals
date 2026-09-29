@@ -114,6 +114,53 @@ def discover_from_sitemaps(retailer: str) -> list[dict]:
             break
     return candidates[:100]
 
+def extract_structured_product(page: str) -> tuple[float | None, str]:
+    """Read public product metadata embedded in HTML before using visible-text heuristics."""
+    price = None
+    stock = "unknown"
+
+    for block in re.findall(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', page, re.I | re.S):
+        try:
+            data = json.loads(html.unescape(block.strip()))
+        except Exception:
+            continue
+        items = data if isinstance(data, list) else [data]
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            offers = item.get("offers")
+            offers = offers if isinstance(offers, list) else [offers] if isinstance(offers, dict) else []
+            for offer in offers:
+                raw_price = offer.get("price")
+                try:
+                    candidate = float(raw_price)
+                    if 5 <= candidate <= 1000:
+                        price = candidate if price is None else min(price, candidate)
+                except (TypeError, ValueError):
+                    pass
+                availability = str(offer.get("availability", "")).lower()
+                if "outofstock" in availability or "soldout" in availability:
+                    stock = "out_of_stock"
+                elif "instock" in availability and stock == "unknown":
+                    stock = "in_stock"
+
+    if price is None:
+        patterns = (
+            r'<meta[^>]+property=["\']product:price:amount["\'][^>]+content=["\']([0-9.]+)',
+            r'<meta[^>]+content=["\']([0-9.]+)["\'][^>]+property=["\']product:price:amount["\']',
+        )
+        for pattern in patterns:
+            match = re.search(pattern, page, re.I)
+            if match:
+                try:
+                    candidate = float(match.group(1))
+                    if 5 <= candidate <= 1000:
+                        price = candidate
+                        break
+                except ValueError:
+                    pass
+    return price, stock
+
 def inspect_candidate(retailer: str, title: str, url: str):
     if not host_allowed(url, retailer) or not looks_like_product_url(url, retailer):
         return None
@@ -121,15 +168,16 @@ def inspect_candidate(retailer: str, title: str, url: str):
         page = fetch(url)
     except Exception:
         page = ""
+    structured_price, structured_stock = extract_structured_product(page)
     text = title + " " + re.sub(r"<[^>]+>", " ", page[:300000])
-    price = extract_price(text)
+    price = structured_price if structured_price is not None else extract_price(text)
     if price is not None and price > MAX_PRICE:
         return None
     lower = text.lower()
-    stock = "unknown"
-    if any(x in lower for x in ("out of stock", "sold out", "currently unavailable")):
+    stock = structured_stock
+    if stock == "unknown" and any(x in lower for x in ("out of stock", "sold out", "currently unavailable")):
         stock = "out_of_stock"
-    elif any(x in lower for x in ("add to cart", "add to bag", "in stock")):
+    elif stock == "unknown" and any(x in lower for x in ("add to cart", "add to bag", "in stock")):
         stock = "in_stock"
 
     verified = retailer in ("pokemon_center_ca", "costco_ca")
