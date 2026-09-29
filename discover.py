@@ -37,9 +37,9 @@ RETAILERS = {
 }
 
 PRODUCT_TERMS = (
-    "elite trainer", "etb", "booster bundle", "booster box", "booster pack",
+    "elite trainer", "etb", "booster bundle", "booster box", "booster display", "booster pack",
     "ultra-premium", "ultra premium", "upc", "super-premium",
-    "super premium", "collection box", "boxed set", "battle deck",
+    "super premium", "collection box", "special collection", "binder collection", "poster collection", "boxed set", "battle deck",
     "151", "prismatic", "destined rivals", "journey together", "team rocket",
 )
 
@@ -67,7 +67,7 @@ def looks_like_product_url(url: str, retailer: str) -> bool:
     if any(marker in parsed.path.lower() for marker in NON_PRODUCT_PATHS):
         return False
     if retailer == "pokemon_center_ca":
-        return "pokemon tcg" in path and product_relevant(path)
+        return "pokemon tcg" in path and product_relevant(path) and not any(x in path for x in ("playmat", "card sleeves", "deck box"))
     if retailer == "costco_ca":
         return "pokemon" in path and ".product." in path and product_relevant(path)
     if retailer == "walmart_ca":
