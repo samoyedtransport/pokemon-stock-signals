@@ -4,6 +4,11 @@ on:
   push:
     paths:
       - "signals.json"
+      - ".github/workflows/validate-signals.yml"
+  pull_request:
+    paths:
+      - "signals.json"
+      - ".github/workflows/validate-signals.yml"
   workflow_dispatch:
 
 permissions:
@@ -33,7 +38,16 @@ jobs:
           allowed_stock = {
               "in_stock",
               "out_of_stock",
-              "unknown"
+              "unknown",
+          }
+
+          allowed_hosts = {
+              "walmart.ca",
+              "www.walmart.ca",
+              "costco.ca",
+              "www.costco.ca",
+              "pokemoncenter.com",
+              "www.pokemoncenter.com",
           }
 
           for product in data["products"]:
@@ -47,23 +61,10 @@ jobs:
               assert isinstance(url, str) and url.startswith("https://")
               assert stock in allowed_stock
 
-              host = urlparse(url).hostname or ""
-              host = host.lower()
-          walmart = (
-              host == "walmart.ca"
-              or host.endswith(".walmart.ca")
-          )
-
-          pokemon_center = (
-              host == "pokemoncenter.com"
-              or host.endswith(".pokemoncenter.com")
-          )
-
-          costco = (
-              host == "costco.ca"
-              or host.endswith(".costco.ca")
-          )
-
-          assert walmart or pokemon_center or costco, (
-              f"Unsupported retailer domain: {host}"
-          )
+              host = (urlparse(url).hostname or "").lower()
+              assert (
+                  host in allowed_hosts
+                  or host.endswith(".walmart.ca")
+                  or host.endswith(".costco.ca")
+                  or host.endswith(".pokemoncenter.com")
+              ), f"Unsupported retailer domain: {host}"
