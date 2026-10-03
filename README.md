@@ -47,3 +47,29 @@ sending messages or changing alert history. `python monitor.py --test-alert`
 also sends a clearly labeled connection test, requiring the webhook environment
 variable. Live retailer checks and successful Discord delivery are required before
 calling the system operational.
+
+## Continuous runner (prepared; requires an always-on host)
+
+GitHub's requested five-minute schedule can be delayed or dropped. For steadier
+checks, run `python worker.py` on an awake PC or a hosted background service.
+The default target interval is 60 seconds; `--interval 30` requests 30 seconds.
+Slow page responses can lengthen a cycle. Whole-job failures use capped backoff.
+An unknown individual product does not prevent checks for other products.
+
+On Windows with Python 3 installed, download/extract this repository and double
+click `Start-Monitor.cmd`. Paste your Discord webhook at the hidden prompt; it
+is kept in the child process environment and is not written to disk. The PC must
+stay awake and the window open. Ctrl+C stops the monitor after the current check.
+
+For a hosted background worker, use start command `python worker.py`, set the
+private environment variable `DISCORD_WEBHOOK_URL`, and attach persistent storage
+at the path specified by `MONITOR_DATA_DIR`. No third-party Python dependencies
+are required. Configure the host to restart the process after crashes/reboots.
+Do not run multiple workers against the same state directory. Local `.state`
+contains operational history and reports and must persist to avoid repeat alerts.
+A separately hosted worker and GitHub fallback have separate histories and can
+send duplicate stock alerts; use one primary alerting runner after setup.
+
+Run `python worker.py --once --dry-run` to verify access without notifications.
+The faster runner is not hosted or running continuously until you launch it on
+an always-on computer/service. The existing GitHub fallback remains enabled.
