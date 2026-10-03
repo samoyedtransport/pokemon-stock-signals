@@ -1,6 +1,9 @@
 import json
 import unittest
-from monitor import parse_product, apply_observation
+import io
+import urllib.error
+from unittest.mock import patch, MagicMock
+from monitor import parse_product, apply_observation, send_discord
 
 
 def page(availability='InStock', currency='CAD', seller='Walmart', price='49.99'):
@@ -54,6 +57,35 @@ class WalmartTests(unittest.TestCase):
 
     def test_out_of_stock(self):
         self.assertEqual(parse_product(walmart_page(availabilityStatus='OUT_OF_STOCK', showAtc=False), 'walmart_ca', self.url), ('out_of_stock', 42.97))
+
+
+class DiscordTests(unittest.TestCase):
+    url = 'https://discord.com/api/webhooks/123/example-test-token'
+
+    def test_confirmation_and_client_header(self):
+        response = MagicMock()
+        response.__enter__.return_value = response
+        response.status = 200
+        response.read.return_value = b'{"id":"456"}'
+        with patch('monitor.urllib.request.urlopen', return_value=response) as opener:
+            send_discord('  ' + self.url + '  ', 'connection test')
+            request = opener.call_args.args[0]
+            self.assertIn('wait=true', request.full_url)
+            self.assertTrue(request.get_header('User-agent').startswith('DiscordBot ('))
+            self.assertEqual(json.loads(request.data)['allowed_mentions'], {'parse': []})
+
+    def test_http_error_does_not_expose_token(self):
+        error = urllib.error.HTTPError(self.url, 404, 'Not found', {}, io.BytesIO(b'{"code":10015,"message":"Unknown Webhook"}'))
+        with patch('monitor.urllib.request.urlopen', side_effect=error):
+            with self.assertRaisesRegex(RuntimeError, 'Discord HTTP 404; API code 10015') as caught:
+                send_discord(self.url, 'connection test')
+        self.assertNotIn('example-test-token', str(caught.exception))
+
+    def test_invalid_url_never_sent(self):
+        with patch('monitor.urllib.request.urlopen') as opener:
+            with self.assertRaisesRegex(RuntimeError, 'Invalid Discord'):
+                send_discord('https://example.com/api/webhooks/123/token', 'test')
+            opener.assert_not_called()
 
 
 class AlertTests(unittest.TestCase):
