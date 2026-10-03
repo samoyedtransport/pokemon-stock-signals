@@ -2,77 +2,77 @@
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-a/4000322413": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-03T18:54:42.865523+00:00",
+    "checked_at": "2026-10-03T19:07:34.458261+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-b/4000322432": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-03T18:54:42.866413+00:00",
+    "checked_at": "2026-10-03T19:07:34.459106+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-paldean-fates-5-mini-tins-4-promo-cards-english-edition/4000322495": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-03T18:54:42.867014+00:00",
+    "checked_at": "2026-10-03T19:07:34.459757+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-tcg-paldea-adventure-chest-english-only/4000329430": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-03T18:54:43.013363+00:00",
+    "checked_at": "2026-10-03T19:07:34.566356+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-koraidon-v-tin-miraidon-window-tin-english-edition/4000254385": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-03T18:54:43.020953+00:00",
+    "checked_at": "2026-10-03T19:07:34.570348+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/seort/6000206890893?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-03T18:54:43.026038+00:00",
+    "checked_at": "2026-10-03T19:07:34.614281+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/Pok-mon-Trading-Card-Games-Scarlet-Violet-Booster-Bundle/6000206160632?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-03T18:54:43.078840+00:00",
+    "checked_at": "2026-10-03T19:07:34.627983+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/POKEMON-SV10-5-BLACK-BOLT-BOOSTER-BUNDLE/15IO4V3GG944?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-03T18:54:43.116538+00:00",
+    "checked_at": "2026-10-03T19:07:34.689908+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/seort/5XB0SFI5NSO6?selectedSellerId=0": {
-    "checked_at": "2026-10-03T18:54:43.888153+00:00",
+    "checked_at": "2026-10-03T19:07:35.318898+00:00",
     "observed_stock": "unknown",
-    "error": "No verified Canadian online offer"
+    "error": "Embedded product data unavailable"
   },
   "https://www.walmart.ca/en/ip/pokmon-tcg-scarlet-violetsurging-sparks-booster-bundle-multicolor/6000208610601?selectedSellerId=0": {
-    "checked_at": "2026-10-03T18:54:43.906170+00:00",
+    "checked_at": "2026-10-03T19:07:35.473845+00:00",
     "observed_stock": "unknown",
-    "error": "No verified Canadian online offer"
+    "error": "Embedded product data unavailable"
   },
   "https://www.walmart.ca/en/ip/seort/3SCOTC1ANDZN?selectedSellerId=0": {
-    "checked_at": "2026-10-03T18:54:44.160911+00:00",
+    "checked_at": "2026-10-03T19:07:35.499691+00:00",
     "observed_stock": "unknown",
-    "error": "No verified Canadian online offer"
+    "error": "Embedded product data unavailable"
   },
   "https://www.walmart.ca/en/ip/Pok-mon-TCG-Scarlet-Violet-Destined-Rivals-Booster-Bundle/6ZA5591IEHFQ?selectedSellerId=0": {
-    "checked_at": "2026-10-03T18:54:44.169616+00:00",
+    "checked_at": "2026-10-03T19:07:35.530708+00:00",
     "observed_stock": "unknown",
-    "error": "No verified Canadian online offer"
+    "error": "Embedded product data unavailable"
   }
 }
