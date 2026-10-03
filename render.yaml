@@ -1,0 +1,24 @@
+# Creates a paid worker only after the account owner approves deployment.
+services:
+  - type: worker
+    name: pokemon-stock-monitor
+    runtime: python
+    repo: https://github.com/samoyedtransport/pokemon-stock-signals
+    branch: main
+    region: virginia
+    plan: 0.5c-512mb
+    autoDeployTrigger: 'off'
+    buildCommand: python -m unittest -v test_monitor
+    startCommand: python -u worker.py --interval 60
+    maxShutdownDelaySeconds: 180
+    disk:
+      name: stock-history
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: DISCORD_WEBHOOK_URL
+        sync: false
+      - key: MONITOR_DATA_DIR
+        value: /var/data/pokemon
+      - key: PYTHONUNBUFFERED
+        value: '1'

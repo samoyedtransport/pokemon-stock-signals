@@ -1,5 +1,26 @@
 # Pokemon stock signals
 
+[Deploy the always-on worker to Render](https://render.com/deploy?repo=https://github.com/samoyedtransport/pokemon-stock-signals)
+
+This is a paid deployment requiring your Render account and billing approval.
+The prepared `render.yaml` creates one 0.5c-512mb Python background worker and
+one 1 GB persistent disk. The published base cost at preparation is USD $7/month
+for compute plus $0.25/month for the disk, before taxes/other usage. Review the
+current Render price shown during deployment. It targets 60-second check starts.
+The configuration is prepared; no Render worker has been created yet.
+
+Render prompts for `DISCORD_WEBHOOK_URL`; paste the webhook privately there.
+GitHub secrets are not automatically transferred to Render. Operational history
+is saved to `/var/data/pokemon` and survives worker restarts/redeployments.
+The build runs the verification tests before starting. Automatic deployment is
+off so stock-history/search commits do not repeatedly restart the service.
+Once Render is healthy and stock checks are verified in its logs, disable the
+GitHub Direct Stock Monitor workflow to avoid duplicate alerts from separate
+histories. Keep it enabled until the new worker is verified.
+
+No paid resource is created by merely committing this configuration or opening
+the deployment link. You review and approve resource creation in Render.
+
 `monitor.py` directly checks the explicit Canadian product list in `watchlist.json`.
 Search discovery in `discover.py` is a separate candidate feed and cannot silently
 expand alert coverage. The initial list contains 12 Costco/Walmart products with
