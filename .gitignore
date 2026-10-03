@@ -1,0 +1,5 @@
+__pycache__/
+.state/
+.env
+.env.*
+monitor-report.json
