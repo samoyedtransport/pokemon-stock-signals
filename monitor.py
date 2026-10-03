@@ -17,6 +17,12 @@ from discover import host_allowed
 STATE = Path('stock-state.json')
 
 
+def write_json(path, value):
+    temporary = path.with_suffix(path.suffix + '.tmp')
+    temporary.write_text(json.dumps(value, indent=2) + '\n')
+    temporary.replace(path)
+
+
 def walk(value):
     if isinstance(value, dict):
         yield value
@@ -181,8 +187,28 @@ def check_product(product):
     product = dict(product)
     now = datetime.now(timezone.utc).isoformat()
     try:
-        stock, price = parse_product(fetch_page(product['url'], product['retailer']), product['retailer'], product['url'])
+        page = fetch_page(product['url'], product['retailer'])
+        stock, price = parse_product(page, product['retailer'], product['url'])
         error = None if stock != 'unknown' else 'No verified Canadian online offer'
+        if stock == 'unknown' and product['retailer'] == 'walmart_ca':
+            match = re.search(r'<script\b[^>]*id=[\"\']__NEXT_DATA__[\"\'][^>]*>(.*?)</script>', page, re.I | re.S)
+            if not match:
+                error = 'Embedded product data unavailable'
+            else:
+                try:
+                    selected = json.loads(match.group(1))['props']['pageProps']['initialData']['data']['product']
+                    if str(selected.get('usItemId')) != item_id(product['url']):
+                        error = 'Product ID mismatch'
+                    elif str(selected.get('sellerId')) != '0' or selected.get('sellerName') != 'Walmart' or selected.get('offerType') != '1P':
+                        error = 'Selected offer is not verified Walmart first-party stock'
+                    elif selected.get('availabilityStatus') == 'IN_STOCK':
+                        error = 'Online shipping or purchase eligibility unconfirmed'
+                    else:
+                        error = 'Canadian price or availability data unconfirmed'
+                except (ValueError, KeyError, TypeError):
+                    error = 'Embedded product data incomplete'
+    except urllib.error.HTTPError as exc:
+        stock, price, error = 'unknown', None, f'Retailer HTTP {exc.code}'
     except Exception as exc:
         stock, price, error = 'unknown', None, type(exc).__name__
     product.update(stock=stock, price=price, checked_at=now, check_error=error)
@@ -208,9 +234,12 @@ def main():
     parser.add_argument('--dry-run', action='store_true', help='Check live stock and write a report without sending or changing alert history')
     parser.add_argument('--test-alert', action='store_true', help='Send one clearly labeled connection test; no stock claim')
     args = parser.parse_args()
+    data_dir = Path(os.environ.get('MONITOR_DATA_DIR', '.'))
+    data_dir.mkdir(parents=True, exist_ok=True)
+    state_path = data_dir / STATE.name
     webhook = os.environ.get('DISCORD_WEBHOOK_URL', '')
     products = load_products()
-    previous = json.loads(STATE.read_text()) if STATE.exists() else {}
+    previous = json.loads(state_path.read_text()) if state_path.exists() else {}
     failures = 0
     delivery_failures = 0
     test_alert_delivered = False
@@ -219,6 +248,8 @@ def main():
     for product in observations:
         url = product['url']
         print(f"{product['retailer']} {product['stock']} CAD {product['price']}: {product['title']}")
+        if product['check_error']:
+            print(f"  Verification: {product['check_error']}")
         if product['stock'] == 'unknown':
             failures += 1
         if args.dry_run or not webhook:
@@ -240,7 +271,7 @@ def main():
             print(f'Discord test delivery failed: {exc}')
     unknown = sum(p['stock'] == 'unknown' for p in observations)
     report = {'checked_at': datetime.now(timezone.utc).isoformat(), 'dry_run': args.dry_run, 'discord_configured': bool(webhook), 'test_alert_delivered': test_alert_delivered, 'products_checked': len(observations), 'unknown_products': unknown, 'delivery_failures': delivery_failures, 'failures': failures, 'products': observations}
-    Path('monitor-report.json').write_text(json.dumps(report, indent=2) + '\n')
+    write_json(data_dir / 'monitor-report.json', report)
     summary = os.environ.get('GITHUB_STEP_SUMMARY')
     if summary:
         with open(summary, 'a') as output:
@@ -250,7 +281,7 @@ def main():
                 title = product['title'].replace('|', '/')
                 output.write(f"| {title} | {product['stock']} | {product['price']} |\n")
     if not args.dry_run and webhook:
-        STATE.write_text(json.dumps(previous, indent=2) + '\n')
+        write_json(state_path, previous)
     if not args.dry_run and not webhook:
         raise SystemExit('DISCORD_WEBHOOK_URL is missing; checks completed but alerts are not configured.')
     if unknown:

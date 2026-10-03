@@ -2,17 +2,19 @@ name: Direct Stock Monitor
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '2-57/5 * * * *'
   push:
     branches: [main]
     paths:
       - 'monitor.py'
+      - 'worker.py'
       - 'watchlist.json'
       - '.github/workflows/monitor.yml'
   pull_request:
     paths:
       - 'monitor.py'
       - 'test_monitor.py'
+      - 'worker.py'
       - 'watchlist.json'
       - '.github/workflows/monitor.yml'
 permissions:
