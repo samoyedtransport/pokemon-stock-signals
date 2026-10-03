@@ -4,6 +4,7 @@ import io
 import urllib.error
 from unittest.mock import patch, MagicMock
 from monitor import parse_product, apply_observation, send_discord
+from worker import run_loop
 
 
 def page(availability='InStock', currency='CAD', seller='Walmart', price='49.99'):
@@ -57,6 +58,24 @@ class WalmartTests(unittest.TestCase):
 
     def test_out_of_stock(self):
         self.assertEqual(parse_product(walmart_page(availabilityStatus='OUT_OF_STOCK', showAtc=False), 'walmart_ca', self.url), ('out_of_stock', 42.97))
+
+
+class WorkerTests(unittest.TestCase):
+    def test_failed_cycles_back_off_and_success_resets_interval(self):
+        stop = MagicMock()
+        stop.is_set.return_value = False
+        stop.wait.side_effect = [False, False, False, True]
+        checks = MagicMock(side_effect=[1, 1, 1, 0])
+        run_loop(60, stop, checks, clock=lambda: 0)
+        self.assertEqual([call.args[0] for call in stop.wait.call_args_list], [60, 120, 240, 60])
+
+    def test_stopped_worker_does_not_check_or_wait(self):
+        stop = MagicMock()
+        stop.is_set.return_value = True
+        checks = MagicMock()
+        run_loop(60, stop, checks)
+        checks.assert_not_called()
+        stop.wait.assert_not_called()
 
 
 class DiscordTests(unittest.TestCase):
