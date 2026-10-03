@@ -7,6 +7,7 @@ import os
 import re
 import urllib.parse
 import urllib.request
+import urllib.error
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -121,12 +122,43 @@ def fetch_page(url, retailer):
         return response.read(2_000_000).decode('utf-8', errors='replace')
 
 
+def send_discord(webhook, content):
+    webhook = webhook.strip()
+    parsed = urllib.parse.urlparse(webhook)
+    if parsed.scheme != 'https' or parsed.hostname not in ('discord.com', 'discordapp.com', 'canary.discord.com', 'ptb.discord.com') or not re.fullmatch(r'/api(?:/v\d+)?/webhooks/\d+/[A-Za-z0-9_.-]+', parsed.path):
+        raise RuntimeError('Invalid Discord webhook URL format')
+    query = urllib.parse.parse_qs(parsed.query)
+    query['wait'] = ['true']
+    endpoint = urllib.parse.urlunparse(parsed._replace(query=urllib.parse.urlencode(query, doseq=True)))
+    body = json.dumps({'content': content, 'allowed_mentions': {'parse': []}}).encode()
+    request = urllib.request.Request(endpoint, data=body, headers={
+        'Content-Type': 'application/json',
+        'User-Agent': 'DiscordBot (https://github.com/samoyedtransport/pokemon-stock-signals, 1.0)',
+    }, method='POST')
+    try:
+        with urllib.request.urlopen(request, timeout=20) as response:
+            result = json.loads(response.read())
+            if response.status != 200 or not result.get('id'):
+                raise RuntimeError('Discord did not confirm a saved message')
+    except urllib.error.HTTPError as exc:
+        code = None
+        try:
+            payload = json.loads(exc.read(4096))
+            code = payload.get('code')
+            if not isinstance(code, int):
+                code = None
+        except (ValueError, AttributeError):
+            pass
+        # No URL, token, arbitrary response text or request object enters logs.
+        raise RuntimeError(f'Discord HTTP {exc.code}; API code {code}') from None
+    except urllib.error.URLError:
+        raise RuntimeError('Discord connection failed') from None
+    except (TimeoutError, ValueError, AttributeError):
+        raise RuntimeError('Discord returned no usable message confirmation') from None
+
+
 def notify(webhook, product):
-    body = json.dumps({'content': f"Confirmed CAD online stock: {product['title']} — ${product['price']:.2f}\n{product['url']}", 'allowed_mentions': {'parse': []}}).encode()
-    request = urllib.request.Request(webhook, data=body, headers={'Content-Type': 'application/json'}, method='POST')
-    with urllib.request.urlopen(request, timeout=20) as response:
-        if response.status not in (200, 204):
-            raise RuntimeError('Discord rejected alert')
+    send_discord(webhook, f"Confirmed CAD online stock: {product['title']} — ${product['price']:.2f}\n{product['url']}")
 
 
 def load_products():
@@ -193,21 +225,19 @@ def main():
             continue
         try:
             previous[url] = apply_observation(product, previous.get(url, {}), lambda p: notify(webhook, p))
-        except Exception:
+        except RuntimeError as exc:
             failures += 1
             delivery_failures += 1
-            print('Discord delivery failed; alert will retry next run.')
+            print(f'{exc}; alert will retry next run.')
     if args.test_alert and webhook and not args.dry_run:
-        body = json.dumps({'content': 'Pokemon monitor connection test — this is NOT a stock alert.', 'allowed_mentions': {'parse': []}}).encode()
         try:
-            with urllib.request.urlopen(urllib.request.Request(webhook, data=body, headers={'Content-Type': 'application/json'}, method='POST'), timeout=20) as response:
-                if response.status not in (200, 204):
-                    raise RuntimeError('Test delivery rejected')
-                test_alert_delivered = True
-        except Exception:
+            send_discord(webhook, 'Pokemon monitor connection test — this is NOT a stock alert.')
+            test_alert_delivered = True
+            print('Discord confirmed the connection test message was saved.')
+        except RuntimeError as exc:
             failures += 1
             delivery_failures += 1
-            print('Discord test delivery failed.')
+            print(f'Discord test delivery failed: {exc}')
     unknown = sum(p['stock'] == 'unknown' for p in observations)
     report = {'checked_at': datetime.now(timezone.utc).isoformat(), 'dry_run': args.dry_run, 'discord_configured': bool(webhook), 'test_alert_delivered': test_alert_delivered, 'products_checked': len(observations), 'unknown_products': unknown, 'delivery_failures': delivery_failures, 'failures': failures, 'products': observations}
     Path('monitor-report.json').write_text(json.dumps(report, indent=2) + '\n')
