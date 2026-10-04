@@ -1,25 +1,31 @@
-# Pokemon stock signals
+# Pokemon stock monitor — free setup
 
-[Deploy the always-on worker to Render](https://render.com/deploy?repo=https://github.com/samoyedtransport/pokemon-stock-signals)
+## Start on Windows
 
-This is a paid deployment requiring your Render account and billing approval.
-The prepared `render.yaml` creates one 0.5c-512mb Python background worker and
-one 1 GB persistent disk. The published base cost at preparation is USD $7/month
-for compute plus $0.25/month for the disk, before taxes/other usage. Review the
-current Render price shown during deployment. It targets 60-second check starts.
-The configuration is prepared; no Render worker has been created yet.
+1. Download https://github.com/samoyedtransport/pokemon-stock-signals/archive/refs/heads/main.zip
+2. Extract the entire ZIP to a normal folder; do not launch from inside the ZIP.
+3. Double-click `Start-Monitor.cmd`. The launcher checks for Python 3.10+.
+   If missing, install Python from https://www.python.org/downloads/windows/
+   and reopen the launcher. It accepts either `py -3` or `python`.
+4. Paste your existing Discord webhook at the hidden prompt and press Enter.
+   Characters will not appear while entering the URL.
+5. Check Discord for `Pokemon local monitor started — connection test, NOT a stock alert.`
+   The terminal confirms connection before starting product checks. Keep the
+   window open and the PC awake. Closing the window or sleeping the PC stops it.
 
-Render prompts for `DISCORD_WEBHOOK_URL`; paste the webhook privately there.
-GitHub secrets are not automatically transferred to Render. Operational history
-is saved to `/var/data/pokemon` and survives worker restarts/redeployments.
-The build runs the verification tests before starting. Automatic deployment is
-off so stock-history/search commits do not repeatedly restart the service.
-Once Render is healthy and stock checks are verified in its logs, disable the
-GitHub Direct Stock Monitor workflow to avoid duplicate alerts from separate
-histories. Keep it enabled until the new worker is verified.
+There is no hosting subscription for this setup. The default check target is
+60 seconds, subject to page response time and failure backoff. To request
+30-second checks, run `py -3 worker.py --interval 30` from the extracted folder.
+The webhook is not written to disk, so you enter it again after restarting.
+Only confirmed first-party Canadian online stock within your configured price
+ceiling triggers a restock alert. A connection test is never a stock claim.
 
-No paid resource is created by merely committing this configuration or opening
-the deployment link. You review and approve resource creation in Render.
+## Free GitHub fallback
+
+Your connected GitHub workflow can run while the PC is off, but scheduled runs
+can be delayed. Local and GitHub alert histories are separate, so the same
+restock may notify twice while both are enabled. Leave the fallback enabled
+until the local monitor is confirmed working.
 
 `monitor.py` directly checks the explicit Canadian product list in `watchlist.json`.
 Search discovery in `discover.py` is a separate candidate feed and cannot silently
