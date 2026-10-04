@@ -2,78 +2,82 @@
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-a/4000322413": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T06:15:03.574981+00:00",
+    "checked_at": "2026-10-04T12:24:51.542681+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-b/4000322432": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T06:15:03.575751+00:00",
+    "checked_at": "2026-10-04T12:24:51.543302+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-paldean-fates-5-mini-tins-4-promo-cards-english-edition/4000322495": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T06:15:03.576562+00:00",
+    "checked_at": "2026-10-04T12:24:51.543746+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-tcg-paldea-adventure-chest-english-only/4000329430": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T06:15:03.905687+00:00",
+    "checked_at": "2026-10-04T12:24:51.905772+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-koraidon-v-tin-miraidon-window-tin-english-edition/4000254385": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T06:15:03.911417+00:00",
+    "checked_at": "2026-10-04T12:24:51.923163+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/seort/6000206890893?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T06:15:03.967595+00:00",
+    "checked_at": "2026-10-04T12:24:51.933467+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/Pok-mon-Trading-Card-Games-Scarlet-Violet-Booster-Bundle/6000206160632?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T06:15:04.058222+00:00",
+    "checked_at": "2026-10-04T12:24:51.953581+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/POKEMON-SV10-5-BLACK-BOLT-BOOSTER-BUNDLE/15IO4V3GG944?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T06:15:04.267816+00:00",
+    "checked_at": "2026-10-04T12:24:52.155915+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/seort/5XB0SFI5NSO6?selectedSellerId=0": {
-    "checked_at": "2026-10-04T06:15:04.838068+00:00",
-    "observed_stock": "unknown",
-    "error": "Embedded product data unavailable",
+    "checked_at": "2026-10-04T12:24:52.789083+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null,
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/pokmon-tcg-scarlet-violetsurging-sparks-booster-bundle-multicolor/6000208610601?selectedSellerId=0": {
-    "checked_at": "2026-10-04T06:15:04.925597+00:00",
-    "observed_stock": "unknown",
-    "error": "Embedded product data unavailable"
+    "checked_at": "2026-10-04T12:24:52.802171+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null,
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/seort/3SCOTC1ANDZN?selectedSellerId=0": {
-    "checked_at": "2026-10-04T06:15:04.995525+00:00",
-    "observed_stock": "unknown",
-    "error": "Embedded product data unavailable"
+    "checked_at": "2026-10-04T12:24:52.927850+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null,
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/Pok-mon-TCG-Scarlet-Violet-Destined-Rivals-Booster-Bundle/6ZA5591IEHFQ?selectedSellerId=0": {
-    "checked_at": "2026-10-04T06:15:05.028256+00:00",
+    "checked_at": "2026-10-04T12:24:53.497912+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable"
   }
