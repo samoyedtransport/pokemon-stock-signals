@@ -8,6 +8,7 @@ import sys
 import threading
 import time
 from pathlib import Path
+from monitor import send_discord
 
 
 def run_loop(interval, stop, run_check, clock=time.monotonic):
@@ -38,6 +39,12 @@ def main():
         env['DISCORD_WEBHOOK_URL'] = getpass.getpass('Discord webhook URL (hidden; not saved): ').strip()
         if not env['DISCORD_WEBHOOK_URL']:
             raise SystemExit('Webhook is required for alerts.')
+    if not args.dry_run:
+        try:
+            send_discord(env['DISCORD_WEBHOOK_URL'], 'Pokemon local monitor started — connection test, NOT a stock alert.')
+        except RuntimeError as exc:
+            raise SystemExit(f'{exc}. Reopen the launcher and copy the webhook URL again.') from None
+        print('Discord connection confirmed. Starting stock checks.', flush=True)
     # Keep operational history separate from checked-in code and search output.
     env.setdefault('MONITOR_DATA_DIR', str(root / '.state'))
     command = [sys.executable, '-u', str(root / 'monitor.py')]
