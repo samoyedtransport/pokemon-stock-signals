@@ -4,7 +4,7 @@ import io
 import urllib.error
 from unittest.mock import patch, MagicMock
 from monitor import parse_product, apply_observation, send_discord
-from worker import run_loop
+from worker import run_loop, main as worker_main
 
 
 def page(availability='InStock', currency='CAD', seller='Walmart', price='49.99'):
@@ -61,6 +61,29 @@ class WalmartTests(unittest.TestCase):
 
 
 class WorkerTests(unittest.TestCase):
+    def test_local_start_confirms_discord_before_check(self):
+        with patch('worker.sys.argv', ['worker.py', '--once']), patch.dict('worker.os.environ', {'DISCORD_WEBHOOK_URL': 'private-test-value'}, clear=True), patch('worker.send_discord') as sender, patch('worker.signal.signal'), patch('worker.subprocess.run') as process:
+            process.return_value.returncode = 0
+            with self.assertRaises(SystemExit) as result:
+                worker_main()
+            self.assertEqual(result.exception.code, 0)
+            sender.assert_called_once()
+            process.assert_called_once()
+
+    def test_invalid_webhook_stops_before_stock_checks(self):
+        with patch('worker.sys.argv', ['worker.py', '--once']), patch.dict('worker.os.environ', {'DISCORD_WEBHOOK_URL': 'private-test-value'}, clear=True), patch('worker.send_discord', side_effect=RuntimeError('Invalid Discord webhook URL format')), patch('worker.subprocess.run') as process:
+            with self.assertRaisesRegex(SystemExit, 'Invalid Discord webhook URL format'):
+                worker_main()
+            process.assert_not_called()
+
+    def test_dry_run_does_not_prompt_or_send(self):
+        with patch('worker.sys.argv', ['worker.py', '--once', '--dry-run']), patch.dict('worker.os.environ', {}, clear=True), patch('worker.send_discord') as sender, patch('worker.getpass.getpass') as prompt, patch('worker.signal.signal'), patch('worker.subprocess.run') as process:
+            process.return_value.returncode = 0
+            with self.assertRaises(SystemExit):
+                worker_main()
+            sender.assert_not_called()
+            prompt.assert_not_called()
+
     def test_failed_cycles_back_off_and_success_resets_interval(self):
         stop = MagicMock()
         stop.is_set.return_value = False
