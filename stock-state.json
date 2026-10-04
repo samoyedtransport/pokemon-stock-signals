@@ -2,82 +2,82 @@
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-a/4000322413": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T16:55:00.690235+00:00",
+    "checked_at": "2026-10-04T19:51:00.164160+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-b/4000322432": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T16:55:00.690724+00:00",
+    "checked_at": "2026-10-04T19:51:00.164898+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-paldean-fates-5-mini-tins-4-promo-cards-english-edition/4000322495": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T16:55:00.691145+00:00",
+    "checked_at": "2026-10-04T19:51:00.165500+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-tcg-paldea-adventure-chest-english-only/4000329430": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T16:55:01.130429+00:00",
+    "checked_at": "2026-10-04T19:51:00.403380+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-koraidon-v-tin-miraidon-window-tin-english-edition/4000254385": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T16:55:01.137497+00:00",
+    "checked_at": "2026-10-04T19:51:00.419137+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/seort/6000206890893?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T16:55:01.192977+00:00",
+    "checked_at": "2026-10-04T19:51:00.433588+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/Pok-mon-Trading-Card-Games-Scarlet-Violet-Booster-Bundle/6000206160632?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T16:55:01.315945+00:00",
-    "observed_stock": "unknown",
-    "error": "Retailer HTTP 404"
+    "checked_at": "2026-10-04T19:51:00.593247+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
   },
   "https://www.walmart.ca/en/ip/POKEMON-SV10-5-BLACK-BOLT-BOOSTER-BUNDLE/15IO4V3GG944?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T16:55:01.452200+00:00",
+    "checked_at": "2026-10-04T19:51:00.739605+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/seort/5XB0SFI5NSO6?selectedSellerId=0": {
-    "checked_at": "2026-10-04T16:55:02.508197+00:00",
+    "checked_at": "2026-10-04T19:51:01.548073+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/pokmon-tcg-scarlet-violetsurging-sparks-booster-bundle-multicolor/6000208610601?selectedSellerId=0": {
-    "checked_at": "2026-10-04T16:55:02.588540+00:00",
+    "checked_at": "2026-10-04T19:51:01.794233+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/seort/3SCOTC1ANDZN?selectedSellerId=0": {
-    "checked_at": "2026-10-04T16:55:02.921705+00:00",
+    "checked_at": "2026-10-04T19:51:02.129236+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/Pok-mon-TCG-Scarlet-Violet-Destined-Rivals-Booster-Bundle/6ZA5591IEHFQ?selectedSellerId=0": {
-    "checked_at": "2026-10-04T16:55:02.957869+00:00",
+    "checked_at": "2026-10-04T19:51:02.254117+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable"
   }
