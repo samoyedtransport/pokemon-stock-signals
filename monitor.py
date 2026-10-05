@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from discover import host_allowed
+from catalogue import check_catalogues
 
 STATE = Path('stock-state.json')
 
@@ -164,6 +165,9 @@ def send_discord(webhook, content):
 
 
 def notify(webhook, product):
+    if product.get('source') == 'retail_catalogue':
+        send_discord(webhook, f"Retail availability: {product['retailer_name']} ({product['location']})\n{product['title']} — CAD ${product['price']:.2f} (limit ${product['max_price']:.2f})\nChecked {product['checked_at']}\n{product['url']}\nStore reports available. Check shipping/pickup and final total at checkout.")
+        return
     send_discord(webhook, f"Confirmed CAD online stock: {product['title']} — ${product['price']:.2f}\n{product['url']}")
 
 
@@ -245,6 +249,11 @@ def main():
     test_alert_delivered = False
     with ThreadPoolExecutor(max_workers=3) as executor:
         observations = list(executor.map(check_product, products))
+    retail_products, retail_health = check_catalogues()
+    observations.extend(retail_products)
+    initialized_stores = previous.get('_catalogue_stores', [])
+    for health in retail_health:
+        print(f"Retail catalogue {health['store']}: {health}")
     for product in observations:
         url = product['url']
         print(f"{product['retailer']} {product['stock']} CAD {product['price']}: {product['title']}")
@@ -255,7 +264,9 @@ def main():
         if args.dry_run or not webhook:
             continue
         try:
-            previous[url] = apply_observation(product, previous.get(url, {}), lambda p: notify(webhook, p))
+            baseline = product.get('source') == 'retail_catalogue' and product['retailer'] not in initialized_stores
+            # Existing availability is baselined silently once per new store.
+            previous[url] = apply_observation(product, previous.get(url, {}), (lambda p: None) if baseline else lambda p: notify(webhook, p))
         except RuntimeError as exc:
             failures += 1
             delivery_failures += 1
@@ -270,7 +281,7 @@ def main():
             delivery_failures += 1
             print(f'Discord test delivery failed: {exc}')
     unknown = sum(p['stock'] == 'unknown' for p in observations)
-    report = {'checked_at': datetime.now(timezone.utc).isoformat(), 'dry_run': args.dry_run, 'discord_configured': bool(webhook), 'test_alert_delivered': test_alert_delivered, 'products_checked': len(observations), 'unknown_products': unknown, 'delivery_failures': delivery_failures, 'failures': failures, 'products': observations}
+    report = {'checked_at': datetime.now(timezone.utc).isoformat(), 'dry_run': args.dry_run, 'discord_configured': bool(webhook), 'test_alert_delivered': test_alert_delivered, 'products_checked': len(observations), 'unknown_products': unknown, 'delivery_failures': delivery_failures, 'failures': failures, 'products': observations, 'retail_catalogues': retail_health}
     write_json(data_dir / 'monitor-report.json', report)
     summary = os.environ.get('GITHUB_STEP_SUMMARY')
     if summary:
@@ -281,6 +292,23 @@ def main():
                 title = product['title'].replace('|', '/')
                 output.write(f"| {title} | {product['stock']} | {product['price']} |\n")
     if not args.dry_run and webhook:
+        health_state = previous.get('_retail_health', {})
+        for health in retail_health:
+            old = health_state.get(health['store'], {})
+            count = 0 if health['ok'] else old.get('failures', 0) + 1
+            warned = old.get('warned', False)
+            try:
+                if count >= 3 and not warned:
+                    send_discord(webhook, f"Monitor coverage warning: {health['store']} failed {count} consecutive catalogue checks. Availability is unknown; other stores continue. Check monitor-report.json.")
+                    warned = True
+                elif health['ok'] and warned:
+                    send_discord(webhook, f"Monitor coverage restored: {health['store']} catalogue checks are working again.")
+                    warned = False
+            except RuntimeError:
+                print('Retail health message failed; it will retry.')
+            health_state[health['store']] = {'failures': count, 'warned': warned}
+        previous['_retail_health'] = health_state
+        previous['_catalogue_stores'] = sorted(set(initialized_stores) | {h['store'] for h in retail_health if h['ok']})
         write_json(state_path, previous)
     if not args.dry_run and not webhook:
         raise SystemExit('DISCORD_WEBHOOK_URL is missing; checks completed but alerts are not configured.')
