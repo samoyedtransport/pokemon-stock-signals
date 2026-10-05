@@ -101,6 +101,10 @@ def host_allowed(url: str, retailer: str) -> bool:
             or host.endswith(".pokemoncenter.com")
         )
 
+    if retailer == "ebgames_ca":
+        return host == "www.ebgames.ca"
+    if retailer == "bestbuy_ca":
+        return host == "www.bestbuy.ca"
     return False
 
 

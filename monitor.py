@@ -14,6 +14,7 @@ from pathlib import Path
 
 from discover import host_allowed
 from catalogue import check_catalogues
+from major_retailers import parse_direct_ld, parse_bestbuy, check_bestbuy_catalogue
 
 STATE = Path('stock-state.json')
 
@@ -78,6 +79,10 @@ def walmart_offer(page, expected_url):
 
 
 def parse_product(page, retailer, expected_url=None):
+    if retailer in ('ebgames_ca', 'pokemon_center_ca') and expected_url:
+        return parse_direct_ld(page, retailer, expected_url)
+    if retailer == 'bestbuy_ca' and expected_url:
+        return parse_bestbuy(page, expected_url)
     if retailer == 'walmart_ca' and expected_url:
         return walmart_offer(page, expected_url)
     offers = []
@@ -249,8 +254,12 @@ def main():
     test_alert_delivered = False
     with ThreadPoolExecutor(max_workers=4) as executor:
         catalogue_future = executor.submit(check_catalogues)
+        bestbuy_future = executor.submit(check_bestbuy_catalogue, fetch_page, check_product)
         observations = list(executor.map(check_product, products))
         retail_products, retail_health = catalogue_future.result()
+        bb_products, bb_health = bestbuy_future.result()
+        retail_products.extend(bb_products)
+        retail_health.extend(bb_health)
     observations.extend(retail_products)
     initialized_stores = previous.get('_catalogue_stores', [])
     for health in retail_health:

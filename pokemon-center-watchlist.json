@@ -1,0 +1,8 @@
+{
+  "products": [
+    {"title":"30th Celebration Booster Bundle (6 Packs)","url":"https://www.pokemoncenter.com/en-ca/product/10-10451-115/pokemon-tcg-30th-celebration-booster-bundle-6-packs","max_price":40},
+    {"title":"30th Celebration Pokemon Center Elite Trainer Box","url":"https://www.pokemoncenter.com/en-ca/product/10-10447-111/pokemon-tcg-30th-celebration-pokemon-center-elite-trainer-box","max_price":85},
+    {"title":"30th Celebration Mini Tins (10-Pack)","url":"https://www.pokemoncenter.com/en-ca/product/10-10465-176/pokemon-tcg-30th-celebration-mini-tins-10-pack","max_price":140},
+    {"title":"30th Celebration Knock Out Collection","url":"https://www.pokemoncenter.com/en-ca/product/10-10667-101/pokemon-tcg-30th-celebration-knock-out-collection","max_price":15}
+  ]
+}

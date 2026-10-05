@@ -49,7 +49,7 @@ test when configured. The scheduled workflow requests a check every five minutes
 GitHub can delay runs, so this is not a guaranteed fast-drop service.
 
 Add official Canadian product URLs to `watchlist.json` with title, url, retailer
-(`costco_ca`, `walmart_ca`, `pokemon_center_ca`), and max_price in CAD. A Product
+(`costco_ca`, `walmart_ca`, `ebgames_ca`; Pokemon Center uses its separate browser watchlist), and max_price in CAD. A Product
 JSON-LD offer on another supported retailer is only accepted with matching product
 URL and CAD currency. All fetching uses normal public pages; there is no checkout
 automation or CAPTCHA bypass.
@@ -103,7 +103,7 @@ an always-on computer/service. The existing GitHub fallback remains enabled.
 
 ## Expanded Canadian retail coverage
 
-`retailers.json` contains optional, **disabled-by-default** configurations for 401 Games (Toronto/Vaughan), Hobbiesville (Toronto/Ottawa), KanZen Games (GTA), and Face to Face Games (Toronto/Montreal). These independent card shops can charge above major-retailer prices. They are not checked and produce no stock or coverage alerts unless a store is explicitly set to `"enabled": true`. Default monitoring remains Walmart first-party and Costco. Pokémon Center, GameStop/EB Games, Best Buy and Toys “R” Us are priorities for future verified adapters; they are not currently enabled monitors. We select recognizable sealed product formats and exclude listings marked singles, used, opened, damaged, resealed, cases, imports, preorders, app exclusive, or in-store only. This filtering cannot establish a shop's upstream sourcing or guarantee factory condition: verify the actual listing before buying.
+`retailers.json` contains optional, **disabled-by-default** configurations for 401 Games (Toronto/Vaughan), Hobbiesville (Toronto/Ottawa), KanZen Games (GTA), and Face to Face Games (Toronto/Montreal). These independent card shops can charge above major-retailer prices. They are not checked and produce no stock or coverage alerts unless a store is explicitly set to `"enabled": true`. Default direct monitoring includes Walmart first-party, Costco, seven EB Games products, and automatic Best Buy first-party catalogue discovery. Pokémon Center has a separate optional visible-browser monitor described below. Toys “R” Us online checkout is currently unavailable during its platform transition. We select recognizable sealed product formats and exclude listings marked singles, used, opened, damaged, resealed, cases, imports, preorders, app exclusive, or in-store only. This filtering cannot establish a shop's upstream sourcing or guarantee factory condition: verify the actual listing before buying.
 
 The catalogue reader verifies CAD using the public cart response, then checks up to three pages of 250 products per store each cycle. It reports truncated catalogues and failures in `monitor-report.json`; a failed/missing listing never becomes a false sold-out observation. Catalogue `available` is the store's public online availability signal, not a checkout reservation or a guarantee of shipping or local pickup.
 
@@ -118,6 +118,31 @@ The first successful check for each new store creates a silent baseline. Later r
 3. Copy your old `.state` folder into the new extracted folder to retain local delivered-alert history.
 4. Open `Start-Monitor.cmd` in the new folder and paste your webhook again.
 
-Downloading a new ZIP is required; an already running Windows copy does not update itself. Keep only one local monitor running. GitHub cloud checks and local checks have separate state and may both alert for the same change. No subscriptions or extra Python packages are required.
+Downloading a new ZIP is required; an already running Windows copy does not update itself. Keep only one local monitor running. GitHub cloud checks and local checks have separate state and may both alert for the same change. No subscriptions are required. Direct monitoring uses only the Python standard library; the optional Pokemon Center browser monitor uses the free Playwright package.
 
-The monitor still checks Walmart first-party only. Some Walmart pages are blocked or missing embedded data, these remain explicitly unknown rather than fabricated stock. The White Flare URL has been replaced with a canonical product path verified to expose Walmart first-party stock data. Pokémon Center is not currently verified. More catalogue coverage helps detection, but stock can sell out before manual checkout and local in-store availability must be checked with the store.
+The monitor still checks Walmart first-party only. Some Walmart pages are blocked or missing embedded data, these remain explicitly unknown rather than fabricated stock. The White Flare URL has been replaced with a canonical product path verified to expose Walmart first-party stock data. Pokémon Center is supported through the optional local browser monitor, not ordinary cloud HTTP checks. More catalogue coverage helps detection, but stock can sell out before manual checkout and local in-store availability must be checked with the store.
+
+
+## Major retailers and 30th Anniversary monitoring
+
+**EB Games Canada:** seven English, new-product targets are active: Prismatic Evolutions, Surging Sparks, Ascended Heroes, Perfect Order, Pitch Black and Phantasmal Flames booster bundles, plus the 30th Celebration ETB. Checks require matching product SKU/URL, a product-specific New condition label, CAD price and explicit offer availability. Generic cart buttons never prove stock. Preorders do not trigger in-stock alerts. Product-specific ceilings are in `watchlist.json`; the 30th ETB ceiling is $90 CAD, so an inflated offer above that does not alert. Missing/unverified anniversary poster, sticker and knockout listings have not been activated.
+
+**Best Buy Canada:** each cycle reads the Pokemon category using the site's Sold & Shipped by Best Buy filter, up to three pages, and independently verifies every selected product page before any alert. Marketplace=false, a null seller object, the rendered sold-by-best-buy marker, a new condition, Canada storefront locale, exact SKU and explicit purchasable online shipping are required. Search results are candidates only. Enabled formats include bundles, ETBs, booster boxes, premium collections and 30th Anniversary collections/tins; language/condition filters reject inappropriate products. Prices are taken from the Canada storefront, not US results. Initial existing availability is silently baselined; future qualifying new listings/restocks alert. Zero matching first-party products is reported as healthy empty coverage, not a broken store or a stock claim.
+
+**Toys R Us Canada:** not activated. Its current official homepage says online checkout is temporarily unavailable while it upgrades platforms. Historical product search results cannot establish purchasable stock. Recheck the official site when online shopping resumes.
+
+### Pokemon Center Canada — optional local Chrome monitor
+
+Normal browser access was verified against the official 30th Celebration booster bundle page: CAD currency, matching SKU, official seller, new condition, structured availability and the product purchase control are available after the ordinary device check completes. Direct HTTP/cloud requests returned an interruption page and are not treated as stock.
+
+1. Install Google Chrome if it is not already installed.
+2. Double-click **Start-PokemonCenter.cmd** in the extracted folder. It installs the free `playwright` Python package from PyPI if needed and uses your installed Chrome; no paid service or extra browser download is required.
+3. Paste the Discord webhook at the hidden prompt. A separate visible Chrome profile opens.
+4. Confirm the Canadian product page is visible, handling any site verification yourself, then press Enter in the monitor window.
+5. Keep this Chrome window and monitor window open. Default cycle target is 120 seconds across four anniversary products. Keep Start-Monitor.cmd running separately for Walmart, Costco, EB Games and Best Buy.
+
+The Pokemon Center watchlist includes the 30th Celebration booster bundle ($40 cap), Pokemon Center ETB ($85), mini tins ten-pack ($140), and Knock Out Collection ($15), all CAD before taxes/shipping. Edit `pokemon-center-watchlist.json` for exact product ceilings. In-stock alerts require both official structured InStock data and a visible enabled Add to cart control. Preorders and ambiguous offers stay unknown. Known available eligible items alert on their first confirmed check; duplicate and failed-delivery handling is preserved.
+
+Site verification is never solved automatically. If a challenge appears, checks pause for manual handling; there are no stealth patches, proxies, fingerprint changes, copied cloud cookies or checkout actions. Browser access can be interrupted again and cannot guarantee a purchase. The Windows launcher has been reviewed and the parser tested, but this visible-browser process still needs its first end-to-end run on your Windows PC.
+
+Browser profile cookies stay locally in `.state/pokemon-center-browser`. No login is needed. Webhooks remain hidden and are not saved. Reports/history are separate from cloud state; only one Pokemon Center browser monitor should use this profile. Ctrl+C stops it. For a no-alert single-cycle check, run `python pokemon_center_browser.py --dry-run --once`.

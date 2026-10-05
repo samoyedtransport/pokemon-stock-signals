@@ -68,7 +68,7 @@ class MonitorCatalogueIntegrationTests(unittest.TestCase):
         from unittest.mock import patch
         import monitor
         health=[{'store':'401_games','ok':True}]
-        with patch.dict(os.environ, {'DISCORD_WEBHOOK_URL':'configured', 'MONITOR_DATA_DIR':str(directory), 'GITHUB_STEP_SUMMARY':''}), patch('sys.argv',['monitor.py']+(['--dry-run'] if dry else [])), patch.object(monitor,'load_products',return_value=[]), patch.object(monitor,'check_catalogues',return_value=(products,health)), patch.object(monitor,'send_discord',side_effect=RuntimeError('delivery failed') if fail else None) as send, contextlib.redirect_stdout(io.StringIO()):
+        with patch.dict(os.environ, {'DISCORD_WEBHOOK_URL':'configured', 'MONITOR_DATA_DIR':str(directory), 'GITHUB_STEP_SUMMARY':''}), patch('sys.argv',['monitor.py']+(['--dry-run'] if dry else [])), patch.object(monitor,'load_products',return_value=[]), patch.object(monitor,'check_bestbuy_catalogue',return_value=([],[])), patch.object(monitor,'check_catalogues',return_value=(products,health)), patch.object(monitor,'send_discord',side_effect=RuntimeError('delivery failed') if fail else None) as send, contextlib.redirect_stdout(io.StringIO()):
             try: monitor.main()
             except SystemExit:
                 if not fail: raise
