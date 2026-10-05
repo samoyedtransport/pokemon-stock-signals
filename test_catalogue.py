@@ -105,3 +105,23 @@ class MonitorCatalogueIntegrationTests(unittest.TestCase):
             path=Path(folder)
             self.assertEqual(self.run_monitor(path,[p],dry=True),0)
             self.assertFalse((path/'stock-state.json').exists())
+
+class DisabledStoreTests(unittest.TestCase):
+    def test_disabled_or_unspecified_stores_never_fetch(self):
+        import json
+        from unittest.mock import patch
+        from catalogue import check_catalogues
+        config={'stores':[STORE,{**STORE,'enabled':False}], 'price_limits':LIMITS}
+        with patch('catalogue.Path.exists',return_value=True), patch('catalogue.Path.read_text',return_value=json.dumps(config)), patch('catalogue.check_store') as check:
+            self.assertEqual(check_catalogues(), ([],[]))
+            check.assert_not_called()
+
+    def test_only_explicitly_enabled_store_checked(self):
+        import json
+        from unittest.mock import patch
+        from catalogue import check_catalogues
+        enabled={**STORE,'enabled':True}
+        config={'stores':[STORE,{**STORE,'enabled':False},enabled], 'price_limits':LIMITS}
+        with patch('catalogue.Path.exists',return_value=True), patch('catalogue.Path.read_text',return_value=json.dumps(config)), patch('catalogue.check_store',return_value=([],{'ok':True})) as check:
+            self.assertEqual(check_catalogues(), ([],[{'ok':True}]))
+            check.assert_called_once_with(enabled,LIMITS)
