@@ -2,56 +2,56 @@
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-a/4000322413": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T07:01:56.887658+00:00",
+    "checked_at": "2026-10-05T13:20:10.962900+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-b/4000322432": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T07:01:56.888512+00:00",
+    "checked_at": "2026-10-05T13:20:10.963733+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-paldean-fates-5-mini-tins-4-promo-cards-english-edition/4000322495": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T07:01:56.889238+00:00",
+    "checked_at": "2026-10-05T13:20:10.964349+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-tcg-paldea-adventure-chest-english-only/4000329430": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T07:01:57.000215+00:00",
+    "checked_at": "2026-10-05T13:20:11.126039+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-koraidon-v-tin-miraidon-window-tin-english-edition/4000254385": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T07:01:57.090912+00:00",
+    "checked_at": "2026-10-05T13:20:11.131096+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/seort/6000206890893?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T07:01:57.140781+00:00",
-    "observed_stock": "unknown",
-    "error": "Retailer HTTP 404"
+    "checked_at": "2026-10-05T13:20:11.134889+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
   },
   "https://www.walmart.ca/en/ip/Pok-mon-Trading-Card-Games-Scarlet-Violet-Booster-Bundle/6000206160632?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T07:01:57.178756+00:00",
+    "checked_at": "2026-10-05T13:20:11.182421+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/POKEMON-SV10-5-BLACK-BOLT-BOOSTER-BUNDLE/15IO4V3GG944?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T07:01:57.329828+00:00",
+    "checked_at": "2026-10-05T13:20:11.186385+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
@@ -63,22 +63,2592 @@
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/pokmon-tcg-scarlet-violetsurging-sparks-booster-bundle-multicolor/6000208610601?selectedSellerId=0": {
-    "checked_at": "2026-10-05T07:01:57.939941+00:00",
+    "checked_at": "2026-10-05T13:20:12.047217+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/seort/3SCOTC1ANDZN?selectedSellerId=0": {
-    "checked_at": "2026-10-05T07:01:57.941041+00:00",
+    "checked_at": "2026-10-05T13:20:12.085850+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/Pok-mon-TCG-Scarlet-Violet-Destined-Rivals-Booster-Bundle/6ZA5591IEHFQ?selectedSellerId=0": {
-    "checked_at": "2026-10-05T07:01:57.947485+00:00",
+    "checked_at": "2026-10-05T13:20:12.092537+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable"
-  }
+  },
+  "https://www.walmart.ca/en/ip/Pokemon-TCG-Scarlet-Violet-White-Flare-Booster-Bundle/5XB0SFI5NSO6?selectedSellerId=0": {
+    "checked_at": "2026-10-05T13:20:11.883473+00:00",
+    "observed_stock": "unknown",
+    "error": "Embedded product data unavailable"
+  },
+  "https://store.401games.ca/products/pokemon-30th-celebration-booster-bundle?variant=48053146386619": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-30th-celebration-elite-trainer-box?variant=47908843847867": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-30th-celebration-elite-trainer-box-pokemon-centre-exclusive?variant=67602749784251": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-ancient-origins-booster-box?variant=48095432463": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-armarouge-ex-premium-collection?variant=45348455940283": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-astral-radiance-booster-box?variant=42510941290683": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-astral-radiance-elite-trainer-box?variant=42511053848763": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-astral-radiance-elite-trainer-box-pokemon-center?variant=47314842714299": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-black-white-legendary-treasures-booster-box?variant=48095431951": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-blastoise-gx-premium-collection?variant=27738511933515": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-breakpoint-booster-box?variant=48095454735": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-breakpoint-elite-trainer?variant=37149581574331": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-breakthrough-booster-box?variant=48095454671": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-brilliant-stars-booster-box?variant=41995404443835": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-brilliant-stars-elite-trainer-box?variant=41995416731835": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-brilliant-stars-elite-trainer-box-pokemon-center?variant=47314845696187": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-burning-shadows-booster-box?variant=48095275279": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-burning-shadows-elite-trainer-box?variant=48095275215": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-celebrations-elite-trainer-box?variant=40720462315707": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-celebrations-ultra-premium-collection?variant=40720522608827": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-celestial-storm-booster-box?variant=12139949686859": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-celestial-storm-elite-trainer-box?variant=12139950800971": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-champions-path-elite-trainer-box?variant=32680878866507": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-champions-path-marnie-premium-collection?variant=32680879259723": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-charizard-ex-premium-collection?variant=44714597777595": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-charizard-ex-super-premium-collection?variant=46257841012923": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-combined-powers-premium-collection?variant=44850888376507": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-cosmic-eclipse-booster-box?variant=29746257199179": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-cosmic-eclipse-elite-trainer-box?variant=29746253398091": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-crimson-invasion-booster-box?variant=48241972367": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-crimson-invasion-elite-trainer-box?variant=48242020047": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-crown-zenith-booster-bundle?variant=46326778167483": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-crown-zenith-elite-trainer-box?variant=43747172319419": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-pokemon-crown-zenith-elite-trainer-box?variant=47197610803387": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-cynthia-s-garchomp-ex-premium-collection?variant=46548556808379": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-dragon-majesty-elite-trainer-box?variant=12188646834251": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-eevee-evolutions-premium-collection?variant=48303567765691": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-eternatus-vmax-premium-collection?variant=32478507073611": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-evolutions-booster-box?variant=48095454927": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-fates-collide-booster-box?variant=48095454799": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-flareon-vmax-premium-collection?variant=41695600509115": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-forbidden-light-booster-box?variant=5427200524303": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-forbidden-light-elite-trainer-box?variant=5427204489231": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-fusion-strike-booster-box?variant=41150918787259": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-fusion-strike-elite-trainer-box?variant=41453489750203": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-generations-elite-trainer-box?variant=48095443919": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-guardians-rising-booster-box?variant=48095457935": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-hidden-fates-elite-trainer-box?variant=37149038674107": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-iono-s-bellibolt-ex-premium-collection?variant=46422425764027": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-jolteon-vmax-premium-collection?variant=41695574786235": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-kleavor-vstar-premium-collection?variant=42656646693051": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-legendary-warriors-premium-collection?variant=46946406334651": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-lost-origin-booster-box?variant=43027238387899": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-lost-origin-booster-bundle?variant=43074101084347": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-lost-origin-elite-trainer-box?variant=43027250249915": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-lost-origin-elite-trainer-box-pokemon-center?variant=47314839863483": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-lost-thunder-booster-box?variant=12245998207051": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-lost-thunder-elite-trainer-box?variant=12245998239819": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-lucario-vstar-premium-collection?variant=42450762760379": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-masks-of-ogerpon-premium-collection?variant=46569823043771": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-charizard-x-ex-ultra-premium-collection?variant=46952750973115": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-ascended-heroes-booster-bundle?variant=47203085353147": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-ascended-heroes-elite-trainer-box?variant=47203005464763": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-ascended-heroes-elite-trainer-box-pokemon-centre-exclusive?variant=47778335817915": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-base-set-booster-box?variant=46763684823227": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-base-set-booster-box-no-box-topper-pre-order?variant=47019604639931": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-base-set-booster-bundle?variant=46763706351803": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-base-set-elite-trainer-box-mega-gardevoir?variant=46763703894203": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-base-set-elite-trainer-box-mega-lucario?variant=46763696783547": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-base-set-elite-trainer-box-mega-lucario-pokemon-centre-exclusive?variant=48295636369595": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-perfect-order-booster-box?variant=47363955327163": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-perfect-order-booster-bundle?variant=47364596727995": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-perfect-order-elite-trainer-box?variant=47364509565115": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-perfect-order-elite-trainer-box-pokemon-center-exclusive?variant=47778371076283": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-phantasmal-flames-booster-box?variant=46942900420795": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-phantasmal-flames-booster-bundle?variant=46947441475771": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-phantasmal-flames-elite-trainer-box?variant=46943250972859": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-pitch-black-booster-box?variant=47772710109371": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-pitch-black-booster-bundle?variant=47772703719611": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-pitch-black-elite-trainer-box?variant=47772705521851": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-evolution-pitch-black-elite-trainer-box-pokemon-center?variant=48303748153531": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-greninja-ex-premium-collection?variant=47729257939131": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-tyranitar-ex-premium-collection?variant=48018670799": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-mega-venusaur-ex-premium-collection?variant=46952712765627": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-ogerpon-ex-premium-collection-box-pre-order?variant=46292238106811": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-paldean-fates-great-tusk-ex-iron-treads-ex-premium-collection?variant=47206131761339": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-pokemon-go-elite-trainer-box-pokemon-center?variant=47401305538747": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-pokemon-go-tcg-elite-trainer-box?variant=42656570835131": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-pokemon-go-tcg-premium-collection-radiant-eevee?variant=42656594526395": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-primal-clash-booster-box?variant=48095432207": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-prismatic-evolutions-lucario-ex-tyranitar-ex-premium-collection-sams-club?variant=46919042269371": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-prismatic-evolutions-super-premium-collection?variant=46483804225723": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-rebel-clash-booster-box?variant=31908781031499": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-rebel-clash-elite-trainer-box?variant=31908787552331": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-roaring-skies-booster-box?variant=48095432399": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-salamence-ex-reshiram-ex-premium-collection?variant=46835571884219": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-scarlet-violet-ultra-premium-collection-terapagos-ex-pre-order?variant=46273329332411": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-scarlet-violet-151-blooming-waters-premium-collection?variant=46367489065147": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-scarlet-violet-151-booster-bundle?variant=44641569636539": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-scarlet-violet-151-elite-trainer-box?variant=44641551483067": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-scarlet-and-violet-151-elite-trainer-box-pokemon-center?variant=47314781536443": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://store.401games.ca/products/pokemon-scarlet-violet-151-ultra-premium-collection?variant=44641601814715": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.965252+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-mega-charizard-x-ex-ultra-premium-collection-max-1-wave-2-pre-order?variant=47233418494090": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-paldean-fates-great-tusk-ex-iron-treads-ex-premium-collection?variant=50126051278986": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/reprint-pokemon-scarlet-and-violet-destined-rivals-elite-trainer-box-pre-order?variant=49878969254026": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/reprint-pokemon-scarlet-and-violet-journey-together-non-enhanced-booster-box-pre-order?variant=49871561228426": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-mega-greninja-ex-premium-collection-pre-order?variant=48040795963530": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-mega-zygarde-ex-premium-collection-pre-order?variant=47688498741386": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-mega-evolution-set-3-perfect-order-booster-bundle-pre-order?variant=47547003830410": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-xy-furious-fists-booster-box?variant=47367371227274": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-mega-evolution-set-3-elite-trainer-early-access-pre-order-max-2?variant=47301080809610": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-collect-151-gathering-jumbo-booster-box-pre-order?variant=47218694848650": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-mega-evolution-perfect-order-booster-box?variant=47113761259658": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-mega-evolution-base-set-booster-box-enhanced-booster-max-2-per-customer-wave-2-pre-order?variant=47021344653450": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-bundle-max-6-pre-order?variant=46569346826378": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-salamence-ex-reshiram-ex-premium-collection-pre-order?variant=46535900430474": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-sv-temporal-forces-half-booster-box?variant=46533113381002": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-paradox-rift-half-booster-box-18-packs-euro?variant=46283344576650": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-masks-of-ogerpon-premium-collection-pre-order?variant=46228287127690": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-scarlet-and-violet-stellar-crown-18-pack-euro-half-booster-box?variant=46072574476426": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-sv-twilight-masqueade-18-pack-euro-half-booster-box?variant=46072538235018": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-prismatic-evolutions-super-premium-collection-pre-order?variant=46028694978698": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-scarlet-and-violet-journey-together-booster-bundle-pre-order?variant=45871158001802": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-scarlet-and-violet-journey-together-booster-box-pre-order?variant=45757576446090": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-blooming-waters-premium-collection-pre-order?variant=45709861290122": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-crown-zenith-booster-bundle-6-packs-incoming-item?variant=45491079282826": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-scarlet-violet-surging-sparks-booster-box-pre-order?variant=45379174793354": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-scarlet-violet-stellar-crown-elite-trainer-box-pre-order?variant=45206927736970": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-scarlet-and-violet-stellar-crown-booster-box-pre-order?variant=45082324697226": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-scarlet-violet-twilight-masquerade-booster-bundle-6-packs-pre-order?variant=44489269346442": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-scarlet-violet-twilight-masquerade-elite-trainer-box-pre-order?variant=44489268658314": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-combined-powers-premium-collection-pre-order?variant=44063728926858": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-paldean-fates-premium-collections-quaquaval-ex-pre-order?variant=43989510881418": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-paldean-fates-premium-collections-skeledirge-ex-pre-order?variant=43989491777674": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-paldean-fates-premium-collections-meowscarada-ex-pre-order?variant=43989479293066": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-paldean-fates-booster-bundle-pre-order?variant=43989469954186": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-paldean-fates-elite-trainer-box-pre-order?variant=43959178494090": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-scarlet-and-violet-raging-rift-pre-order?variant=43043583918218": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-scarlet-violet-151-ultra-premium-collection-pre-order?variant=43004307243146": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-scarlet-and-violet-obsidian-flame-booster-bundle-pre-order?variant=42980325392522": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-scarlet-violet-paldea-evolved-booster-bundle-6-packs-pre-order?variant=42866830835850": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-scarlet-violet-elite-trainer-box-koraidon-pre-order?variant=42678569074826": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-scarlet-violet-elite-trainer-box-miraidon-pre-order?variant=42678568517770": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/silver-tempest-swsh12-booster-bundle-pre-order?variant=42195023462422": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/2022-swsh-ultra-premium-collection-charizard-pre-order?variant=42193757831190": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pre-order-pokemon-tcg-silver-tempest-elite-trainer-box?variant=42193088249878": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pre-order-pokemon-celebrations-ultra-premium-collection-october-2021?variant=39343570354198": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pre-order-pokemon-fusion-strike-booster-box-november-2021?variant=39343014215702": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pre-order-pokemon-celebrations-elite-trainer-box?variant=39331281928214": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/wave-2-pre-order-pokemon-sword-and-shield-5-battle-styles-booster-box-end-of-april?variant=39305145942038": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pre-order-pokemon-shining-fates-elite-trainer-box-february-2021?variant=35660020088854": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/hidden-fates-elite-trainer-box?variant=35638898098198": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/november-pre-order-pokemon-elite-trainer?variant=31395641557014": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-unified-minds-booster-box?variant=31375221358614": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-30th-celebration-booster-bundle-pre-order?variant=49642393403530": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-30th-celebration-elite-trainer-box-pre-order?variant=49522146640010": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-mega-evolution-elite-trainer-box-gardevoir-max-2-wave-2-pre-order?variant=47113078014090": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-mega-evolution-set-2-booster-box-pre-order?variant=46545285873802": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-iono-s-bellibolt-ex-premium-collection?variant=46194495815818": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-scarlet-violet-the-glory-of-team-rocket-sealed-box-pre-order?variant=46139579465866": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/app-exlusive-pokemon-scarlet-and-violet-destined-rivals-booster-box-pre-order?variant=45963590074506": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-scarlet-violet-prismatic-evolutions-booster-bundle-pre-order?variant=45647902965898": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-scarlet-and-violet-8-5-elite-trainer-box-pre-order?variant=45541540724874": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-ogerpon-ex-premium-collection-box-pre-order?variant=45426329157770": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-scarlet-violet-6-5-elite-trainer-box-pre-order?variant=44866759622794": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-temporal-forces-booster-box-pre-order?variant=44046976942218": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-scarlet-violet-151-booster-bundle-pre-order?variant=43004276998282": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-obsidian-flames-booster-box-pre-order?variant=42911793971338": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pre-order-pokemon-tcg-pokemon-go-elite-trainer-box-summer-2022?variant=42047951765526": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pre-order-pokemon-sword-and-shield-brilliant-stars-booster-box?variant=40568625594390": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pre-order-pokemon-shining-fates-premium-collection-dragapult-v-february-2021?variant=35660020383766": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/pokemon-tcg-sword-shield-elite-trainer-box-plus-zacian?variant=35614309810198": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://www.hobbiesville.com/products/november-release-vivid-voltage-elite-trainer-box?variant=35659867553814": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.967744+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/pokemon-venusaur-ex-blastoise-ex-premium-collection?variant=48770462580951": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/pokemon-mega-greninja-ex-premium-collection-pre-order?variant=48508617425111": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/mega-evolution-pitch-black-booster-bundle?variant=48454473253079": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/mega-evolution-pitch-black-elite-trainer-box?variant=48454440616151": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/mega-evolution-pitch-black-booster-box?variant=48454437929175": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/mega-evolution-set-4-me04-booster-bundle?variant=48261789352151": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/mega-evolution-set-4-me04-elite-trainer-box?variant=48261787779287": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/mega-evolution-set-4-me04-booster-box?variant=48261786730711": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/mega-evolution-perfect-order-booster-bundle?variant=48177349886167": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/pokemon-tcg-paldean-fates-great-tusk-ex-iron-threads-ex-premium?variant=47730491687127": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/ecem-5th-online-drop-1-bundle?variant=47722716201175": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/pokemon-tcg-mega-evolution-set-3-me03?variant=47193967165655": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/pokemon-tcg-mega-evolution-elite-trainer-box-mega-lucario?variant=47185918755031": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/pokemon-tcg-salamence-ex-reshiram-ex-premium-collection?variant=46927770222807": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/scarlet-violet-sv10-5-elite-trainer-boxblack-bolt?variant=46315144708311": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/destined-rivals-elite-trainer-box?variant=46153985851607": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/scarlet-violet-journey-together-booster-bundle-pre-order?variant=45972668547287": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/scarlet-violet-journey-together-booster-box?variant=45904061825239": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/scarlet-violet-151-blooming-waters-premium-collection?variant=45864153710807": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/scarlet-violet-prismatic-evolution-super-premium-collection?variant=45818345586903": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/scarlet-violet-8-5-booster-bundle?variant=45728915128535": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/scarlet-violet-8-5-elite-trainer-box?variant=45728901234903": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/pokemon-scarlet-violet-surging-sparks-booster-box-pre-order?variant=45562716618967": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/scarlet-violet-stellar-crown-booster-box-pre-order-copy?variant=45360540090583": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/scarlet-violet-twilight-masquerade-booster-box?variant=44637432348887": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/pokemon-scarlet-and-violet-paldean-fates-booster-bundle-pre-order?variant=44257183203543": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/pokemon-pokemon-151-ultra-premium-box-pre-order?variant=43848441692375": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/copy-of-scarlet-violet-paldea-evolved-booster-box-pre-order?variant=43829187084503": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/scarlet-violet-paldea-evolved-booster-box?variant=43760639279319": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-ultra-premium-collection-charizard?variant=43118544355543": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/celebrations-25th-anniversary-ultra-premium-collection?variant=42853290639575": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sun-moon-unified-minds-booster-box?variant=42853276647639": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-vivid-voltage-elite-trainer-box?variant=42853275599063": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-chilling-reign-elite-trainer-box-shadow-rider-calyrex?variant=42852211687639": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon?variant=42852161355991": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-vivid-voltage-booster-box?variant=42852147036375": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/shining-fates-elite-trainer-box?variant=42852134191319": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/celebrations-25th-anniversary-elite-trainer-box?variant=42852125737175": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-elite-trainer-box-plus-zacian?variant=42852122984663": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-fusion-strike-elite-trainer-box?variant=42852095000791": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-brilliant-stars-booster-box?variant=42852094443735": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-fusion-strike-booster-box?variant=67626334093527": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/premium-collection-flareon-vmax?variant=42852092805335": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-chilling-reign-elite-trainer-box-ice-rider-calyrex?variant=42852074324183": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-evolving-skies-elite-trainer-box-glaceon-vaporeon-sylveon-espeon?variant=42852074193111": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-booster-box?variant=42852065378519": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-elite-trainer-box-plus-zamazenta?variant=42852064526551": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-darkness-ablaze-booster-box?variant=42852064362711": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://kanzengames.com/products/sword-shield-battle-styles-booster-box?variant=42852063903959": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.970841+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-booster-bundle?variant=51788275810676": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-base-set-booster-bundle?variant=52395383783796": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-perfect-order-booster-bundle?variant=53841211359604": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-destined-rivals-booster-bundle?variant=51988106445172": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-ascended-heroes-elite-trainer-box?variant=53700693688692": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-destined-rivals-elite-trainer-box?variant=51988106051956": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-white-flare-elite-trainer-box?variant=52100181328244": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-black-bolt-elite-trainer-box?variant=52100181426548": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-journey-together-elite-trainer-box?variant=51788277186932": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-chaos-rising-booster-bundle?variant=54261511160180": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-bundle?variant=53420885999988": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-base-set-booster-box-enhanced?variant=52395382931828": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-pitch-black-booster-bundle?variant=54580552892788": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": true,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-ascended-heroes-booster-bundle?variant=53700693524852": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-surging-sparks-booster-bundle?variant=51730657575284": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-elite-trainer-box?variant=51788276924788": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-chaos-rising-elite-trainer-box?variant=54261528002932": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-151-premium-collection-blooming-waters?variant=51788274401652": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-elite-trainer-box?variant=53420892422516": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-151-booster-bundle?variant=51730659770740": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box?variant=54261511127412": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-zygarde-ex-premium-collection?variant=54042161676660": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-perfect-order-elite-trainer-box?variant=53841211228532": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-pitch-black-elite-trainer-box?variant=54580549452148": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-phantasmal-flames-booster-box?variant=53420885934452": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-masks-of-ogerpon-premium-collection?variant=52026951827828": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-salamence-ex-reshiram-ex-premium-collection?variant=52929395360116": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-venusaur-ex-premium-collection?variant=53440467829108": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-journey-together-booster-bundle?variant=51788273942900": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-destined-rivals-booster-box?variant=51988106477940": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-black-bolt-booster-bundle?variant=52100181098868": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-super-premium-collection?variant=51843224371572": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-greninja-ex-premium-collection?variant=54550823076212": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-twilight-masquerade-elite-trainer-box?variant=51730675466612": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-30th-celebration-elite-trainer-box?variant=55015813120372": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-perfect-order-booster-box?variant=53841211195764": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-charizard-x-ex-ultra-premium-collection?variant=53440467796340": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-journey-together-booster-box-enhanced?variant=51788276138356": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-white-flare-booster-bundle?variant=52100181197172": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-charizard-ex-super-premium-collection?variant=51730662883700": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-base-set-elite-trainer-box-mega-lucario?variant=52395383652724": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-base-set-elite-trainer-box-mega-gardevoir?variant=52395383128436": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-temporal-forces-booster-box?variant=51730659246452": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-surging-sparks-booster-box?variant=51730656887156": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-30th-celebration-booster-bundle?variant=55015813644660": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-pitch-black-booster-box?variant=54580536803700": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-cynthias-garchomp-ex-premium-collection?variant=51988105167220": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-ionos-bellibolt-ex-premium-collection?variant=51788274893172": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-ogerpon-ex-premium-collection?variant=51730661802356": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-twilight-masquerade-booster-bundle?variant=51788913508724": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-surging-sparks-elite-trainer-box?variant=51730671075700": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paradox-rift-booster-box?variant=51730658099572": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-shrouded-fable-elite-trainer-box?variant=51730671796596": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-stellar-crown-booster-box?variant=51730657214836": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paradox-rift-elite-trainer-box-roaring-moon?variant=51730675106164": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-combined-powers-premium-collection?variant=51730666324340": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-twilight-masquerade-booster-box?variant=51730660032884": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-temporal-forces-booster-bundle?variant=51730658197876": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-terapagos-ex-ultra-premium-collection?variant=51730662293876": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-151-ultra-premium-collection?variant=51747606495604": {
+    "confirmed_stock": "in_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "in_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-crown-zenith-elite-trainer-box?variant=51730672845172": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-stellar-crown-booster-bundle?variant=51730656657780": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paldean-fates-booster-bundle?variant=51788916556148": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paradox-rift-elite-trainer-box-iron-valiant?variant=51788912886132": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-stellar-crown-elite-trainer-box?variant=51730671665524": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-base-set-booster-box?variant=51730658558324": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-crown-zenith-premium-collection-sea-sky?variant=51843222831476": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-shrouded-fable-booster-bundle?variant=51730657149300": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-temporal-forces-elite-trainer-box-walking-wake?variant=51730673893748": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-trick-or-trade-booster-bundle-2024?variant=51730657182068": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-temporal-forces-elite-trainer-box-iron-leaves?variant=51730673795444": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paldea-evolved-booster-box?variant=51730659443060": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-shining-fates-elite-trainer-box?variant=51747604857204": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paldean-fates-premium-collection-quaquaval-ex?variant=51730665111924": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-obsidian-flames-booster-box?variant=51730658623860": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paldea-evolved-elite-trainer-box?variant=51730673664372": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-obsidian-flames-elite-trainer-box?variant=51730671731060": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paldean-fates-premium-collection-meowscarada-ex?variant=51730665537908": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-base-set-booster-box-not-enhanced?variant=53360404201844": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paldea-evolved-booster-bundle?variant=51747607806324": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-base-set-elite-trainer-box-koraidon?variant=51730675138932": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-pokemon-go-elite-trainer-box?variant=51730674483572": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-base-set-elite-trainer-box-miraidon?variant=51730673107316": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-celebrations-elite-trainer-box?variant=51730672746868": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-silver-tempest-elite-trainer-box?variant=51730674745716": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-evolving-skies-elite-trainer-box-leafeon?variant=51730673205620": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paldean-fates-premium-collection-skeledirge-ex?variant=51730667569524": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-hidden-fates-elite-trainer-box?variant=51730644697460": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-vivid-voltage-booster-box?variant=51730639913332": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-battle-styles-booster-box?variant=51730639290740": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-armarouge-ex-premium-collection?variant=51788334596468": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-lucario-vstar-premium-collection?variant=51747607019892": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-151-elite-trainer-box?variant=51730673828212": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-trick-or-trade-booster-bundle-2023?variant=51730658328948": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-shining-fates-premium-collection-shiny-dragapult-vmax?variant=51730649678196": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-fusion-strike-elite-trainer-box?variant=51730671534452": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-obsidian-flames-booster-bundle?variant=51730660163956": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-fusion-strike-booster-box?variant=51730659082612": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-shining-fates-premium-collection-shiny-crobat-vmax?variant=51730647974260": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-destined-rivals-pokemon-center-elite-trainer-box?variant=52333520552308": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-trick-or-trade-booster-bundle-2022?variant=51747607314804": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-battle-styles-elite-trainer-box-rapid-strike?variant=51747604758900": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-elite-trainer-box-plus-zamazenta?variant=51747604365684": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-brilliant-stars-elite-trainer-box?variant=51730675499380": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-evolving-skies-elite-trainer-box-sylveon?variant=51730674876788": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-celebrations-ultra-premium-collection?variant=51730666291572": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-astral-radiance-booster-box?variant=51730657902964": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-evolving-skies-booster-box?variant=51730657673588": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-lost-origin-booster-box?variant=51730657083764": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-champions-path-elite-trainer-box?variant=51730643452276": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-chilling-reign-booster-box?variant=51730639847796": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-pokemon-center-elite-trainer-box?variant=53560473289076": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-astral-radiance-elite-trainer-box?variant=51788912984436": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-flareon-vmax-premium-collection?variant=51747607183732": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-xy-ancient-origins-booster-box?variant=51747605643636": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-lost-origin-elite-trainer-box?variant=51730675171700": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-origin-forme-vstar-premium-collection-palkia?variant=51730667766132": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-crown-zenith-premium-collection-regieleki-v?variant=51730666389876": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-crown-zenith-premium-collection-regidrago-v?variant=51730665996660": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-vaporeon-vmax-premium-collection?variant=51730665046388": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-ultra-premium-collection-charizard?variant=51730664849780": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-jolteon-vmax-premium-collection?variant=51730664587636": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-pokemon-go-premium-collection-radiant-eevee?variant=51730663440756": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paradox-rift-booster-bundle?variant=51730658591092": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-xy-fates-collide-elite-trainer-box?variant=51730645877108": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sun-moon-forbidden-light-elite-trainer-box?variant=51730645320052": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-elite-trainer-box-zamazenta?variant=51730645254516": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-elite-trainer-box-plus-zacian?variant=51730644894068": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sun-moon-unified-minds-elite-trainer-box?variant=51730644664692": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-battle-styles-elite-trainer-box-single-strike?variant=51730644468084": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-chilling-reign-elite-trainer-box-shadow-rider-calyrex?variant=51730644435316": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sun-moon-burning-shadows-elite-trainer-box?variant=51730642829684": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-chilling-reign-elite-trainer-box-ice-rider-calyrex?variant=51730642698612": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sun-moon-forbidden-light-booster-box?variant=51730640109940": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sun-moon-crimson-invasion-booster-box?variant=51730639815028": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-journey-together-booster-box-not-enhanced?variant=56151380001140": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-origin-forme-vstar-premium-collection-dialga?variant=51807662178676": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-crown-zenith-booster-bundle?variant=51788275188084": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-scarlet-violet-paldean-fates-elite-trainer-box?variant=51788916097396": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-hisuian-zoroark-vstar-premium-collection?variant=51788915933556": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "https://facetofacegames.com/products/pokemon-tcg-sword-shield-lost-origin-booster-bundle?variant=51747606036852": {
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false,
+    "checked_at": "2026-10-05T13:20:10.971498+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null
+  },
+  "_retail_health": {
+    "401_games": {
+      "failures": 0,
+      "warned": false
+    },
+    "hobbiesville": {
+      "failures": 0,
+      "warned": false
+    },
+    "kanzen_games": {
+      "failures": 0,
+      "warned": false
+    },
+    "face_to_face": {
+      "failures": 0,
+      "warned": false
+    }
+  },
+  "_catalogue_stores": [
+    "401_games",
+    "face_to_face",
+    "hobbiesville",
+    "kanzen_games"
+  ]
 }
