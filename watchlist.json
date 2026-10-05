@@ -71,6 +71,48 @@
       "retailer": "walmart_ca",
       "url": "https://www.walmart.ca/en/ip/Pok-mon-TCG-Scarlet-Violet-Destined-Rivals-Booster-Bundle/6ZA5591IEHFQ?selectedSellerId=0",
       "max_price": 100
+    },
+    {
+      "title": "Pokemon Prismatic Evolutions Booster Bundle",
+      "retailer": "ebgames_ca",
+      "url": "https://www.ebgames.ca/shop/795430-pokemon-trading-card-game-scarlet-violet-prismatic-evolutions-booster-bundle-110183",
+      "max_price": 55
+    },
+    {
+      "title": "Pokemon Surging Sparks Booster Bundle",
+      "retailer": "ebgames_ca",
+      "url": "https://www.ebgames.ca/shop/792805-pokemon-trading-card-game-scarlet-and-violet-surging-sparks-booster-bundle-107693",
+      "max_price": 55
+    },
+    {
+      "title": "Pokemon Ascended Heroes Booster Bundle",
+      "retailer": "ebgames_ca",
+      "url": "https://www.ebgames.ca/shop/866010-pokemon-trading-card-game-ascended-heroes-booster-bundle-177887",
+      "max_price": 50
+    },
+    {
+      "title": "Pokemon Perfect Order Booster Bundle",
+      "retailer": "ebgames_ca",
+      "url": "https://www.ebgames.ca/shop/873177-pokemon-trading-card-game-mega-evolution-perfect-order-booster-bundle-184971",
+      "max_price": 45
+    },
+    {
+      "title": "Pokemon Pitch Black Booster Bundle",
+      "retailer": "ebgames_ca",
+      "url": "https://www.ebgames.ca/shop/trading-cards-pokemon-204/886471-pokemon-trading-card-game-mega-evolution-pitch-black-booster-bundle-197964",
+      "max_price": 50
+    },
+    {
+      "title": "Pokemon Phantasmal Flames Booster Bundle",
+      "retailer": "ebgames_ca",
+      "url": "https://www.ebgames.ca/shop/803960-pokemon-trading-card-game-phantasmal-flames-booster-bundle-118000",
+      "max_price": 50
+    },
+    {
+      "title": "Pokemon 30th Celebration Elite Trainer Box",
+      "retailer": "ebgames_ca",
+      "url": "https://www.ebgames.ca/shop/892728-pokemon-trading-card-game-30th-celebration-elite-trainer-box-209046",
+      "max_price": 90
     }
   ]
 }
