@@ -7,6 +7,10 @@ on:
     branches: [main]
     paths:
       - 'monitor.py'
+      - 'major_retailers.py'
+      - 'discover.py'
+      - 'test_major_retailers.py'
+      - 'pokemon_center_browser.py'
       - 'catalogue.py'
       - 'retailers.json'
       - 'test_catalogue.py'
@@ -16,6 +20,10 @@ on:
   pull_request:
     paths:
       - 'monitor.py'
+      - 'major_retailers.py'
+      - 'discover.py'
+      - 'test_major_retailers.py'
+      - 'pokemon_center_browser.py'
       - 'catalogue.py'
       - 'retailers.json'
       - 'test_catalogue.py'
@@ -37,7 +45,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Test offer verification
-        run: python -m unittest -v test_monitor test_catalogue
+        run: python -m unittest -v test_monitor test_catalogue test_major_retailers
       - name: Check direct product stock and alert
         if: github.event_name != 'pull_request'
         env:
