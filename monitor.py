@@ -247,9 +247,10 @@ def main():
     failures = 0
     delivery_failures = 0
     test_alert_delivered = False
-    with ThreadPoolExecutor(max_workers=3) as executor:
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        catalogue_future = executor.submit(check_catalogues)
         observations = list(executor.map(check_product, products))
-    retail_products, retail_health = check_catalogues()
+        retail_products, retail_health = catalogue_future.result()
     observations.extend(retail_products)
     initialized_stores = previous.get('_catalogue_stores', [])
     for health in retail_health:
