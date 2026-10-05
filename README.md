@@ -100,3 +100,24 @@ send duplicate stock alerts; use one primary alerting runner after setup.
 Run `python worker.py --once --dry-run` to verify access without notifications.
 The faster runner is not hosted or running continuously until you launch it on
 an always-on computer/service. The existing GitHub fallback remains enabled.
+
+## Expanded Canadian retail coverage
+
+`retailers.json` enables 401 Games (Toronto/Vaughan), Hobbiesville (Toronto/Ottawa), KanZen Games (GTA), and Face to Face Games (Toronto/Montreal). These are direct retail catalogues, not marketplace offers. We select recognizable sealed product formats and exclude listings marked singles, used, opened, damaged, resealed, cases, imports, preorders, app exclusive, or in-store only. This filtering cannot establish a shop's upstream sourcing or guarantee factory condition: verify the actual listing before buying.
+
+The catalogue reader verifies CAD using the public cart response, then checks up to three pages of 250 products per store each cycle. It reports truncated catalogues and failures in `monitor-report.json`; a failed/missing listing never becomes a false sold-out observation. Catalogue `available` is the store's public online availability signal, not a checkout reservation or a guarantee of shipping or local pickup.
+
+Default alert ceilings (CAD before taxes/shipping): booster bundles $60, ETBs $90, booster boxes $180, premium collections $150. Edit `price_limits` in `retailers.json` to change them. These are spending filters, not MSRP claims or profit estimates. Existing Walmart/Costco product ceilings remain in `watchlist.json`.
+
+The first successful check for each new store creates a silent baseline. Later restocks, newly listed available items, and prices crossing below the ceiling alert automatically with a variant-specific purchase link, retailer, location and check time. Existing eligible stock does not flood Discord at setup. Failed Discord stock deliveries remain retryable. After three consecutive failed store checks, Discord gets one coverage warning; it gets a recovery message when that store works again.
+
+### Updating your Windows copy
+
+1. Stop the old monitor with Ctrl+C and close it.
+2. Download the latest main ZIP and Extract All.
+3. Copy your old `.state` folder into the new extracted folder to retain local delivered-alert history.
+4. Open `Start-Monitor.cmd` in the new folder and paste your webhook again.
+
+Downloading a new ZIP is required; an already running Windows copy does not update itself. Keep only one local monitor running. GitHub cloud checks and local checks have separate state and may both alert for the same change. No subscriptions or extra Python packages are required.
+
+The monitor still checks Walmart first-party only. Some Walmart pages are blocked or missing embedded data, and the White Flare URL can return 404; these remain explicitly unknown rather than fabricated stock. Pokémon Center is not currently verified. More catalogue coverage helps detection, but stock can sell out before manual checkout and local in-store availability must be checked with the store.
