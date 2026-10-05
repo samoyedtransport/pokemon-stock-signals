@@ -2,58 +2,58 @@
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-a/4000322413": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T16:30:02.214833+00:00",
+    "checked_at": "2026-10-05T16:49:26.252562+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-b/4000322432": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T16:30:02.215325+00:00",
+    "checked_at": "2026-10-05T16:49:26.252853+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-paldean-fates-5-mini-tins-4-promo-cards-english-edition/4000322495": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T16:30:02.215609+00:00",
+    "checked_at": "2026-10-05T16:49:26.253359+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-tcg-paldea-adventure-chest-english-only/4000329430": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T16:30:02.215946+00:00",
+    "checked_at": "2026-10-05T16:49:26.669465+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-koraidon-v-tin-miraidon-window-tin-english-edition/4000254385": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T16:30:02.468766+00:00",
+    "checked_at": "2026-10-05T16:49:26.672498+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/seort/6000206890893?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T16:30:02.475599+00:00",
+    "checked_at": "2026-10-05T16:49:26.683724+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/Pok-mon-Trading-Card-Games-Scarlet-Violet-Booster-Bundle/6000206160632?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T16:30:02.478179+00:00",
+    "checked_at": "2026-10-05T16:49:26.806230+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/POKEMON-SV10-5-BLACK-BOLT-BOOSTER-BUNDLE/15IO4V3GG944?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T16:30:02.505188+00:00",
-    "observed_stock": "out_of_stock",
-    "error": null
+    "checked_at": "2026-10-05T16:49:26.828029+00:00",
+    "observed_stock": "unknown",
+    "error": "Retailer HTTP 404"
   },
   "https://www.walmart.ca/en/ip/seort/5XB0SFI5NSO6?selectedSellerId=0": {
     "checked_at": "2026-10-05T07:01:57.780147+00:00",
@@ -63,28 +63,28 @@
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/pokmon-tcg-scarlet-violetsurging-sparks-booster-bundle-multicolor/6000208610601?selectedSellerId=0": {
-    "checked_at": "2026-10-05T16:30:03.497812+00:00",
+    "checked_at": "2026-10-05T16:49:27.450608+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/seort/3SCOTC1ANDZN?selectedSellerId=0": {
-    "checked_at": "2026-10-05T16:30:03.515428+00:00",
+    "checked_at": "2026-10-05T16:49:27.708934+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/Pok-mon-TCG-Scarlet-Violet-Destined-Rivals-Booster-Bundle/6ZA5591IEHFQ?selectedSellerId=0": {
-    "checked_at": "2026-10-05T16:30:03.663175+00:00",
+    "checked_at": "2026-10-05T16:49:27.743608+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable"
   },
   "https://www.walmart.ca/en/ip/Pokemon-TCG-Scarlet-Violet-White-Flare-Booster-Bundle/5XB0SFI5NSO6?selectedSellerId=0": {
-    "checked_at": "2026-10-05T16:30:02.693779+00:00",
-    "observed_stock": "out_of_stock",
-    "error": null,
+    "checked_at": "2026-10-05T16:49:26.988306+00:00",
+    "observed_stock": "unknown",
+    "error": "Retailer HTTP 404",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
@@ -2645,12 +2645,52 @@
     "face_to_face": {
       "failures": 0,
       "warned": false
+    },
+    "bestbuy_ca": {
+      "failures": 0,
+      "warned": false
     }
   },
   "_catalogue_stores": [
     "401_games",
+    "bestbuy_ca",
     "face_to_face",
     "hobbiesville",
     "kanzen_games"
-  ]
+  ],
+  "https://www.ebgames.ca/shop/795430-pokemon-trading-card-game-scarlet-violet-prismatic-evolutions-booster-bundle-110183": {
+    "checked_at": "2026-10-05T16:49:27.851084+00:00",
+    "observed_stock": "unknown",
+    "error": "Retailer HTTP 403"
+  },
+  "https://www.ebgames.ca/shop/792805-pokemon-trading-card-game-scarlet-and-violet-surging-sparks-booster-bundle-107693": {
+    "checked_at": "2026-10-05T16:49:27.936093+00:00",
+    "observed_stock": "unknown",
+    "error": "Retailer HTTP 403"
+  },
+  "https://www.ebgames.ca/shop/866010-pokemon-trading-card-game-ascended-heroes-booster-bundle-177887": {
+    "checked_at": "2026-10-05T16:49:27.977972+00:00",
+    "observed_stock": "unknown",
+    "error": "Retailer HTTP 403"
+  },
+  "https://www.ebgames.ca/shop/873177-pokemon-trading-card-game-mega-evolution-perfect-order-booster-bundle-184971": {
+    "checked_at": "2026-10-05T16:49:27.991100+00:00",
+    "observed_stock": "unknown",
+    "error": "Retailer HTTP 403"
+  },
+  "https://www.ebgames.ca/shop/trading-cards-pokemon-204/886471-pokemon-trading-card-game-mega-evolution-pitch-black-booster-bundle-197964": {
+    "checked_at": "2026-10-05T16:49:28.032025+00:00",
+    "observed_stock": "unknown",
+    "error": "Retailer HTTP 403"
+  },
+  "https://www.ebgames.ca/shop/803960-pokemon-trading-card-game-phantasmal-flames-booster-bundle-118000": {
+    "checked_at": "2026-10-05T16:49:28.035284+00:00",
+    "observed_stock": "unknown",
+    "error": "Retailer HTTP 403"
+  },
+  "https://www.ebgames.ca/shop/892728-pokemon-trading-card-game-30th-celebration-elite-trainer-box-209046": {
+    "checked_at": "2026-10-05T16:49:28.091768+00:00",
+    "observed_stock": "unknown",
+    "error": "Retailer HTTP 403"
+  }
 }
