@@ -1,0 +1,9 @@
+{
+  "price_limits": {"booster_bundle": 60, "elite_trainer_box": 90, "booster_box": 180, "premium_collection": 150},
+  "stores": [
+    {"id": "401_games", "name": "401 Games", "base_url": "https://store.401games.ca", "collection": "pokemon-sealed-product", "location": "Toronto / Vaughan"},
+    {"id": "hobbiesville", "name": "Hobbiesville", "base_url": "https://www.hobbiesville.com", "collection": "pokemon-trading-cards", "location": "Toronto / Ottawa"},
+    {"id": "kanzen_games", "name": "KanZen Games", "base_url": "https://kanzengames.com", "collection": "pokemon-sealed-in-stock", "location": "GTA"},
+    {"id": "face_to_face", "name": "Face to Face Games", "base_url": "https://facetofacegames.com", "collection": "pokemon-sealed", "location": "Toronto / Montreal"}
+  ]
+}
