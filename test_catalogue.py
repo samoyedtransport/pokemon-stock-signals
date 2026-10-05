@@ -61,3 +61,47 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual(ps,[]);self.assertFalse(h['ok'])
 
 if __name__ == '__main__': unittest.main()
+
+class MonitorCatalogueIntegrationTests(unittest.TestCase):
+    def run_monitor(self, directory, products, dry=False, fail=False):
+        import contextlib, io, os
+        from unittest.mock import patch
+        import monitor
+        health=[{'store':'401_games','ok':True}]
+        with patch.dict(os.environ, {'DISCORD_WEBHOOK_URL':'configured', 'MONITOR_DATA_DIR':str(directory), 'GITHUB_STEP_SUMMARY':''}), patch('sys.argv',['monitor.py']+(['--dry-run'] if dry else [])), patch.object(monitor,'load_products',return_value=[]), patch.object(monitor,'check_catalogues',return_value=(products,health)), patch.object(monitor,'send_discord',side_effect=RuntimeError('delivery failed') if fail else None) as send, contextlib.redirect_stdout(io.StringIO()):
+            try: monitor.main()
+            except SystemExit:
+                if not fail: raise
+            return send.call_count
+
+    def test_initial_baseline_then_restock_and_duplicate_suppression(self):
+        import tempfile
+        from pathlib import Path
+        p=observations_for_product(product(),STORE,LIMITS,'now')[0]
+        with tempfile.TemporaryDirectory() as folder:
+            path=Path(folder)
+            self.assertEqual(self.run_monitor(path,[p]),0)
+            self.assertEqual(self.run_monitor(path,[{**p,'stock':'out_of_stock'}]),0)
+            self.assertEqual(self.run_monitor(path,[p]),1)
+            self.assertEqual(self.run_monitor(path,[p]),0)
+
+    def test_new_listing_and_failed_delivery_retry(self):
+        import tempfile
+        from pathlib import Path
+        p=observations_for_product(product(),STORE,LIMITS,'now')[0]
+        new=observations_for_product(product(handle='pokemon-new',variants=[{'id':456,'title':'Default Title','price':'50','available':True}]),STORE,LIMITS,'now')[0]
+        with tempfile.TemporaryDirectory() as folder:
+            path=Path(folder)
+            self.run_monitor(path,[p])
+            self.assertEqual(self.run_monitor(path,[p,new],fail=True),1)
+            self.assertEqual(self.run_monitor(path,[p,new]),1)
+            self.assertEqual(self.run_monitor(path,[p,new]),0)
+
+    def test_dry_run_does_not_initialize_history(self):
+        import tempfile
+        from pathlib import Path
+        p=observations_for_product(product(),STORE,LIMITS,'now')[0]
+        with tempfile.TemporaryDirectory() as folder:
+            path=Path(folder)
+            self.assertEqual(self.run_monitor(path,[p],dry=True),0)
+            self.assertFalse((path/'stock-state.json').exists())
