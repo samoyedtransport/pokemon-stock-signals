@@ -7,12 +7,18 @@ on:
     branches: [main]
     paths:
       - 'monitor.py'
+      - 'catalogue.py'
+      - 'retailers.json'
+      - 'test_catalogue.py'
       - 'worker.py'
       - 'watchlist.json'
       - '.github/workflows/monitor.yml'
   pull_request:
     paths:
       - 'monitor.py'
+      - 'catalogue.py'
+      - 'retailers.json'
+      - 'test_catalogue.py'
       - 'test_monitor.py'
       - 'worker.py'
       - 'watchlist.json'
@@ -31,7 +37,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Test offer verification
-        run: python -m unittest -v test_monitor
+        run: python -m unittest -v test_monitor test_catalogue
       - name: Check direct product stock and alert
         if: github.event_name != 'pull_request'
         env:
