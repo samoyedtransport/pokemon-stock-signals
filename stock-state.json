@@ -2,56 +2,56 @@
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-a/4000322413": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T15:51:57.232452+00:00",
+    "checked_at": "2026-10-05T16:30:02.214833+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-b/4000322432": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T15:51:57.233094+00:00",
+    "checked_at": "2026-10-05T16:30:02.215325+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-paldean-fates-5-mini-tins-4-promo-cards-english-edition/4000322495": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T15:51:57.233480+00:00",
+    "checked_at": "2026-10-05T16:30:02.215609+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-tcg-paldea-adventure-chest-english-only/4000329430": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T15:51:57.476575+00:00",
+    "checked_at": "2026-10-05T16:30:02.215946+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-koraidon-v-tin-miraidon-window-tin-english-edition/4000254385": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T15:51:57.480933+00:00",
+    "checked_at": "2026-10-05T16:30:02.468766+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/seort/6000206890893?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T15:51:57.484313+00:00",
+    "checked_at": "2026-10-05T16:30:02.475599+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/Pok-mon-Trading-Card-Games-Scarlet-Violet-Booster-Bundle/6000206160632?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T15:51:57.608250+00:00",
+    "checked_at": "2026-10-05T16:30:02.478179+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/POKEMON-SV10-5-BLACK-BOLT-BOOSTER-BUNDLE/15IO4V3GG944?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-05T15:51:57.622593+00:00",
+    "checked_at": "2026-10-05T16:30:02.505188+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
@@ -63,28 +63,30 @@
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/pokmon-tcg-scarlet-violetsurging-sparks-booster-bundle-multicolor/6000208610601?selectedSellerId=0": {
-    "checked_at": "2026-10-05T15:51:58.715295+00:00",
+    "checked_at": "2026-10-05T16:30:03.497812+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/seort/3SCOTC1ANDZN?selectedSellerId=0": {
-    "checked_at": "2026-10-05T15:51:58.719099+00:00",
+    "checked_at": "2026-10-05T16:30:03.515428+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/Pok-mon-TCG-Scarlet-Violet-Destined-Rivals-Booster-Bundle/6ZA5591IEHFQ?selectedSellerId=0": {
-    "checked_at": "2026-10-05T15:51:58.888108+00:00",
+    "checked_at": "2026-10-05T16:30:03.663175+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable"
   },
   "https://www.walmart.ca/en/ip/Pokemon-TCG-Scarlet-Violet-White-Flare-Booster-Bundle/5XB0SFI5NSO6?selectedSellerId=0": {
-    "checked_at": "2026-10-05T15:51:58.464675+00:00",
-    "observed_stock": "unknown",
-    "error": "Embedded product data unavailable"
+    "checked_at": "2026-10-05T16:30:02.693779+00:00",
+    "observed_stock": "out_of_stock",
+    "error": null,
+    "confirmed_stock": "out_of_stock",
+    "alert_eligible": false
   },
   "https://store.401games.ca/products/pokemon-30th-celebration-booster-bundle?variant=48053146386619": {
     "confirmed_stock": "in_stock",
