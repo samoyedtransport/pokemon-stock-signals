@@ -2,82 +2,82 @@
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-a/4000322413": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T22:33:29.281858+00:00",
+    "checked_at": "2026-10-05T01:11:58.810167+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-151-mini-tins-5-pack-4-promo-cards-english-edition-set-b/4000322432": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T22:33:29.282458+00:00",
+    "checked_at": "2026-10-05T01:11:58.811036+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-paldean-fates-5-mini-tins-4-promo-cards-english-edition/4000322495": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T22:33:29.282903+00:00",
+    "checked_at": "2026-10-05T01:11:58.811695+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-tcg-paldea-adventure-chest-english-only/4000329430": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T22:33:29.432371+00:00",
+    "checked_at": "2026-10-05T01:11:58.954578+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.costco.ca/p/-/pokemon-koraidon-v-tin-miraidon-window-tin-english-edition/4000254385": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T22:33:29.444070+00:00",
+    "checked_at": "2026-10-05T01:11:59.028047+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/seort/6000206890893?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T22:33:29.519008+00:00",
-    "observed_stock": "out_of_stock",
-    "error": null
+    "checked_at": "2026-10-05T01:11:59.031769+00:00",
+    "observed_stock": "unknown",
+    "error": "Retailer HTTP 404"
   },
   "https://www.walmart.ca/en/ip/Pok-mon-Trading-Card-Games-Scarlet-Violet-Booster-Bundle/6000206160632?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T22:33:29.521346+00:00",
+    "checked_at": "2026-10-05T01:11:59.043075+00:00",
     "observed_stock": "out_of_stock",
     "error": null
   },
   "https://www.walmart.ca/en/ip/POKEMON-SV10-5-BLACK-BOLT-BOOSTER-BUNDLE/15IO4V3GG944?selectedSellerId=0": {
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false,
-    "checked_at": "2026-10-04T22:33:29.593716+00:00",
-    "observed_stock": "out_of_stock",
-    "error": null
+    "checked_at": "2026-10-05T01:11:59.112694+00:00",
+    "observed_stock": "unknown",
+    "error": "Retailer HTTP 404"
   },
   "https://www.walmart.ca/en/ip/seort/5XB0SFI5NSO6?selectedSellerId=0": {
-    "checked_at": "2026-10-04T22:33:30.409886+00:00",
+    "checked_at": "2026-10-05T01:11:59.882033+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/pokmon-tcg-scarlet-violetsurging-sparks-booster-bundle-multicolor/6000208610601?selectedSellerId=0": {
-    "checked_at": "2026-10-04T22:33:30.516231+00:00",
+    "checked_at": "2026-10-05T01:12:00.140060+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/seort/3SCOTC1ANDZN?selectedSellerId=0": {
-    "checked_at": "2026-10-04T22:33:30.776395+00:00",
+    "checked_at": "2026-10-05T01:12:00.310639+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable",
     "confirmed_stock": "out_of_stock",
     "alert_eligible": false
   },
   "https://www.walmart.ca/en/ip/Pok-mon-TCG-Scarlet-Violet-Destined-Rivals-Booster-Bundle/6ZA5591IEHFQ?selectedSellerId=0": {
-    "checked_at": "2026-10-04T22:33:31.062065+00:00",
+    "checked_at": "2026-10-05T01:12:00.470211+00:00",
     "observed_stock": "unknown",
     "error": "Embedded product data unavailable"
   }
