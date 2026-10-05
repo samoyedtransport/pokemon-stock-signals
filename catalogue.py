@@ -110,9 +110,12 @@ def check_catalogues():
     if not path.exists():
         return [], []
     config = json.loads(path.read_text())
+    stores = [store for store in config['stores'] if store.get('enabled') is True]
+    if not stores:
+        return [], []
     for limit in config['price_limits'].values():
         if not isinstance(limit, (int, float)) or not 0 < limit <= 250:
             raise ValueError('Invalid retail price limit')
     with ThreadPoolExecutor(max_workers=4) as executor:
-        results = list(executor.map(lambda store: check_store(store, config['price_limits']), config['stores']))
+        results = list(executor.map(lambda store: check_store(store, config['price_limits']), stores))
     return [p for products, _ in results for p in products], [h for _, h in results]
